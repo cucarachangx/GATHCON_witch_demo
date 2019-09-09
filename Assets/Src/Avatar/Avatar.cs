@@ -44,6 +44,11 @@ public class Avatar : MonoBehaviour
         movementComp.enabled = false;
     }
 
+    void ReceiveLife()
+    {
+        animator.SetTrigger("Health");
+    }
+
     private void OnDestroy() {
         currentAvatar = null;
     }

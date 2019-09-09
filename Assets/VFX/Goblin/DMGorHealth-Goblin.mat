@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: DMGorHealth-Goblin
+  m_Shader: {fileID: 4800000, guid: d151f4c11584bf240b24b1362e43c9a0, type: 3}
+  m_ShaderKeywords: ETC1_EXTERNAL_ALPHA
+  m_LightmapFlags: 0
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: a00d4e91da1f6be40a1eb9697f345ce6, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _PanningTex:
+        m_Texture: {fileID: 2800000, guid: 479f0e35807d1a84c95851ee92b291d3, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TextureSample0:
+        m_Texture: {fileID: 2800000, guid: 566766a75df6ed949b55c6ba769a705a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Witch_Texture_AO:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord3:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _DMGorHealth: 1
+    - _DMGorHealth0esDMG1esHealth: 0
+    - _DMGorHealth1esHealth1DMG: 1
+    - _DMGorHealthUSAR0O1SINLERPEAR: 0.55
+    - _Float0: 1
+    - _LerpColorOpacity: 1
+    - _OpacidadSprite: 1
+    - _TexturePanner: 0
+    - __dirty: 0
+    m_Colors:
+    - _Damage: {r: 0.7735849, g: 0, b: 0, a: 0}
+    - _Damage_Color: {r: 0.9999598, g: 0, b: 0.008962271, a: 0}
+    - _Health: {r: 0, g: 1, b: 0.2464235, a: 0}
+    - _Health_Color: {r: 0, g: 1, b: 0.2464235, a: 0}
