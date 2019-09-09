@@ -1,0 +1,3 @@
+1 al 29 :caminata
+del 32 al 68 :ataque 
+del 70 al 95 : muerte

@@ -1,0 +1,19 @@
+Notas al 6/09:
+
+El .fbx mas actualizado es Brujita_2Anims.
+
+Las animaciones estan en una sola tira y por ahora son "Idle" y "Walk".
+Para importarlas a Unity darle click a "Loop Time" en la solapa animaciones,
+y recortarlas segun los siguientes tiempos:
+
+- Idle entre frames 1 y 60 (Loopear)
+
+- Walk entre frames 100 y 130 (Loopear)
+
+- Attack entre frames 170 y 190 (Loopear)
+
+- Death entre frames 195 y 205 (No se loopea)
+
+Aplicar.
+
+Hay 2 texturas. Una albedo y otra de Ambient occlusion, listas para colocarlas en un material nuevo de unity para la bruja.
