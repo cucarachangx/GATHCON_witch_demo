@@ -1054,6 +1054,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PS_Drops(EstoEnLaBala)
       objectReference: {fileID: 0}
+    - target: {fileID: 956600348287804644, guid: bd0649ebd05210a46a6623252458aa79,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 956600348287804648, guid: bd0649ebd05210a46a6623252458aa79,
         type: 3}
       propertyPath: m_LocalPosition.x
