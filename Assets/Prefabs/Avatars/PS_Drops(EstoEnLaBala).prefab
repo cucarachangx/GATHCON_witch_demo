@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 956600347281871029}
   - component: {fileID: 956600347281871027}
   - component: {fileID: 956600347281871028}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: PS_GoopFloor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4767,8 +4767,7 @@ GameObject:
   - component: {fileID: 956600348287804648}
   - component: {fileID: 956600348287804647}
   - component: {fileID: 956600348287804646}
-  - component: {fileID: 956600348287804645}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: PS_Drops(EstoEnLaBala)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5041,9 +5040,9 @@ ParticleSystem:
         m_NumAlphaKeys: 2
     startSize:
       serializedVersion: 2
-      minMaxState: 0
-      scalar: 1
-      minScalar: 1
+      minMaxState: 3
+      scalar: 0.25
+      minScalar: 0.55
       maxCurve:
         serializedVersion: 2
         m_Curve:
@@ -5094,7 +5093,7 @@ ParticleSystem:
         m_RotationOrder: 4
     startSizeY:
       serializedVersion: 2
-      minMaxState: 0
+      minMaxState: 3
       scalar: 1
       minScalar: 1
       maxCurve:
@@ -5147,7 +5146,7 @@ ParticleSystem:
         m_RotationOrder: 4
     startSizeZ:
       serializedVersion: 2
-      minMaxState: 0
+      minMaxState: 3
       scalar: 1
       minScalar: 1
       maxCurve:
@@ -5676,7 +5675,7 @@ ParticleSystem:
     rateOverDistance:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 3
+      scalar: 1
       minScalar: 0
       maxCurve:
         serializedVersion: 2
@@ -9456,22 +9455,3 @@ ParticleSystemRenderer:
   m_Mesh2: {fileID: 0}
   m_Mesh3: {fileID: 0}
   m_MaskInteraction: 0
---- !u!95 &956600348287804645
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 956600348287804644}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: a2963301dde9d6846b67caaa2c41854f, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0

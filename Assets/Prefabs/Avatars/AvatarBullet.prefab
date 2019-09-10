@@ -163,6 +163,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2193210492776342337}
     m_Modifications:
+    - target: {fileID: 956600348287804644, guid: bd0649ebd05210a46a6623252458aa79,
+        type: 3}
+      propertyPath: m_Name
+      value: PS_Drops(EstoEnLaBala)
+      objectReference: {fileID: 0}
     - target: {fileID: 956600348287804648, guid: bd0649ebd05210a46a6623252458aa79,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -171,7 +176,7 @@ PrefabInstance:
     - target: {fileID: 956600348287804648, guid: bd0649ebd05210a46a6623252458aa79,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.092
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 956600348287804648, guid: bd0649ebd05210a46a6623252458aa79,
         type: 3}
@@ -217,26 +222,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: -90
-      objectReference: {fileID: 0}
-    - target: {fileID: 956600348287804644, guid: bd0649ebd05210a46a6623252458aa79,
-        type: 3}
-      propertyPath: m_Name
-      value: PS_Drops(EstoEnLaBala)
-      objectReference: {fileID: 0}
-    - target: {fileID: 956600348287804644, guid: bd0649ebd05210a46a6623252458aa79,
-        type: 3}
-      propertyPath: m_Layer
-      value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: 956600347281871026, guid: bd0649ebd05210a46a6623252458aa79,
-        type: 3}
-      propertyPath: m_Layer
-      value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: 6586627180783995864, guid: bd0649ebd05210a46a6623252458aa79,
-        type: 3}
-      propertyPath: m_Layer
-      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bd0649ebd05210a46a6623252458aa79, type: 3}
