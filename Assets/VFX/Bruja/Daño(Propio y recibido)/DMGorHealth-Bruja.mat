@@ -49,13 +49,13 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Floats:
     - _DMGorHealth: 1
-    - _DMGorHealth0esDMG1esHealth: 0
+    - _DMGorHealth0esDMG1esHealth: 1
     - _DMGorHealth1esHealth1DMG: 1
     - _DMGorHealthUSAR0O1SINLERPEAR: 0.55
     - _Float0: 1
     - _LerpColorOpacity: 1
     - _OpacidadSprite: 1
-    - _TexturePanner: 1.703
+    - _TexturePanner: 0
     - __dirty: 0
     m_Colors:
     - _Damage: {r: 0.7735849, g: 0, b: 0, a: 0}
