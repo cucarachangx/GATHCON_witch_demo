@@ -1235,6 +1235,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Goblin
       objectReference: {fileID: 0}
+    - target: {fileID: 142401787186197375, guid: 724ecf30b63a4497aa589254db1ac441,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8896912924076417320, guid: 724ecf30b63a4497aa589254db1ac441,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1325,17 +1330,22 @@ PrefabInstance:
       propertyPath: autoPathPoints.Array.data[1].z
       value: 11.06
       objectReference: {fileID: 0}
+    - target: {fileID: 5030135749755683329, guid: 724ecf30b63a4497aa589254db1ac441,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 6970586206322f3408cfa12e078693ec, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 724ecf30b63a4497aa589254db1ac441, type: 3}
---- !u!4 &4622301132104820310 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 8896912924076417320, guid: 724ecf30b63a4497aa589254db1ac441,
-    type: 3}
-  m_PrefabInstance: {fileID: 4277743760333752190}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &4225626470074774529 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 142401787186197375, guid: 724ecf30b63a4497aa589254db1ac441,
+    type: 3}
+  m_PrefabInstance: {fileID: 4277743760333752190}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &4622301132104820310 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8896912924076417320, guid: 724ecf30b63a4497aa589254db1ac441,
     type: 3}
   m_PrefabInstance: {fileID: 4277743760333752190}
   m_PrefabAsset: {fileID: 0}
@@ -1408,6 +1418,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 163200a26f577472093e338a5eb87c00, type: 3}
+--- !u!4 &8120726302822850341 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2468521424656105423, guid: 163200a26f577472093e338a5eb87c00,
+    type: 3}
+  m_PrefabInstance: {fileID: 5977242781792084202}
+  m_PrefabAsset: {fileID: 0}
 --- !u!114 &8444791387017666424 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 2864997044794916754, guid: 163200a26f577472093e338a5eb87c00,
@@ -1420,12 +1436,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6dd84c7e3f2494c68beea0f683126d91, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!4 &8120726302822850341 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 2468521424656105423, guid: 163200a26f577472093e338a5eb87c00,
-    type: 3}
-  m_PrefabInstance: {fileID: 5977242781792084202}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &6842487869137075958
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1437,6 +1447,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Hada
+      objectReference: {fileID: 0}
+    - target: {fileID: 142401787186197375, guid: d7cae2b9065f442108163173e8a0230f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8896912924076417320, guid: d7cae2b9065f442108163173e8a0230f,
         type: 3}
@@ -1492,6 +1507,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1001431638777026325, guid: d7cae2b9065f442108163173e8a0230f,
+        type: 3}
+      propertyPath: m_Controller
+      value: 
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d7cae2b9065f442108163173e8a0230f, type: 3}
