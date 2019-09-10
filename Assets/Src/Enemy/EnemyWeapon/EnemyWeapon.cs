@@ -8,8 +8,15 @@ public class EnemyWeapon : MonoBehaviour {
 
     [Space]
     [SerializeField] EnemyBullet bulletPrefab = null;
+    [SerializeField] Transform bulletOrigin = null;
 
     float cooldownTimer = 0f;
+    Animator animator = null;
+
+    // Start is called before the first frame update
+    void Start() {
+        animator = GetComponent<Animator>();
+    }
 
     // Update is called once per frame
     void Update() {
@@ -21,14 +28,32 @@ public class EnemyWeapon : MonoBehaviour {
     }
 
     public void Shoot() {
-        Avatar avatar = Avatar.currentAvatar;
+        if(Avatar.currentAvatar != null && Vector3.Distance(transform.position, Avatar.currentAvatar.transform.position) <= range) {
+            animator.SetTrigger("Attack");
 
-        if(avatar != null && Vector3.Distance(transform.position, avatar.transform.position) <= range) {
-            EnemyBullet newBullet = Instantiate<EnemyBullet>(bulletPrefab);
-            newBullet.transform.position = transform.position;
-            newBullet.transform.LookAt(avatar.transform, Vector3.up);
-            Debug.DrawLine(transform.position, avatar.transform.position, Color.red, 0.1f);
+            Vector3 targetPos = new Vector3(
+                Avatar.currentAvatar.transform.position.x,
+                transform.position.y,
+                Avatar.currentAvatar.transform.position.z);
+            transform.LookAt(targetPos, Vector3.up);
         }
+    }
+
+    //llamado desde animacion
+    public void SpawnBullet() {
+        if(Avatar.currentAvatar == null)
+            return;
+
+        EnemyBullet newBullet = Instantiate<EnemyBullet>(bulletPrefab);
+        newBullet.transform.position = (bulletOrigin != null) ? bulletOrigin.position : transform.position;
+
+        Vector3 targetPos = new Vector3(
+            Avatar.currentAvatar.transform.position.x,
+            newBullet.transform.position.y,
+            Avatar.currentAvatar.transform.position.z);
+        newBullet.transform.LookAt(targetPos, Vector3.up);
+
+        Debug.DrawLine(transform.position, Avatar.currentAvatar.transform.position, Color.red, 0.1f);
     }
 
     private void OnDrawGizmosSelected() {

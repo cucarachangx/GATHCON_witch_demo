@@ -46,10 +46,16 @@ public class AvatarWeapon : MonoBehaviour {
     public void SpawnBullet() {
         if(cosestTarget == null)
             return;
+        
 
         AvatarBullet newBullet = Instantiate<AvatarBullet>(bulletPrefab);
-        newBullet.transform.position = bulletOrigin.position;
-        newBullet.transform.LookAt(cosestTarget.transform, Vector3.up);
+        newBullet.transform.position = (bulletOrigin != null) ? bulletOrigin.position : transform.position;
+
+        Vector3 targetPos = new Vector3(
+            cosestTarget.transform.position.x,
+            newBullet.transform.position.y,
+            cosestTarget.transform.position.z);
+        newBullet.transform.LookAt(targetPos, Vector3.up);
 
         Debug.DrawLine(transform.position, cosestTarget.transform.position, Color.red, 0.1f);
 
