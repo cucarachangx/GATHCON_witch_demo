@@ -794,9 +794,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cooldown: 0.5
-  range: 5
+  range: 20
   bulletPrefab: {fileID: 2193210492776342338, guid: 42e32070d1ef04877a04e193be8a310d,
     type: 3}
+  bulletOrigin: {fileID: 3427643548342746730}
 --- !u!114 &3427643548223235402
 MonoBehaviour:
   m_ObjectHideFlags: 0

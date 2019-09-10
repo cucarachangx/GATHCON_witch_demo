@@ -54,6 +54,7 @@ public class AvatarMovement : MonoBehaviour {
     }
 
     void UpdateRotation(Vector3 velocity) {
-        transform.LookAt(transform.position + velocity.normalized, Vector3.up);
+        if(velocity.magnitude > 0)
+            transform.LookAt(transform.position + velocity.normalized, Vector3.up);
     }
 }

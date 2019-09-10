@@ -8,13 +8,16 @@ public class AvatarWeapon : MonoBehaviour {
 
     [Space]
     [SerializeField] AvatarBullet bulletPrefab = null;
+    [SerializeField] Transform bulletOrigin = null;
 
     float cooldownTimer = 0f;
     bool shooting = false;
+    Animator animator = null;
+    AvatarWeaponTarget cosestTarget = null;
 
     // Start is called before the first frame update
     void Start() {
-
+        animator = GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -31,14 +34,26 @@ public class AvatarWeapon : MonoBehaviour {
     }
 
     public void Shoot() {
-        var cosestTarget = FindClosestTarget();
+        cosestTarget = FindClosestTarget();
 
         if(cosestTarget != null && Vector3.Distance(cosestTarget.transform.position, transform.position) <= range) {
-            AvatarBullet newBullet = Instantiate<AvatarBullet>(bulletPrefab);
-            newBullet.transform.position = transform.position;
-            newBullet.transform.LookAt(cosestTarget.transform, Vector3.up);
-            Debug.DrawLine(transform.position, cosestTarget.transform.position, Color.red, 0.1f);
+            animator.SetTrigger("Attack");
+            transform.LookAt(cosestTarget.transform.position, Vector3.up);
         }
+    }
+
+    //llamado desde animacion
+    public void SpawnBullet() {
+        if(cosestTarget == null)
+            return;
+
+        AvatarBullet newBullet = Instantiate<AvatarBullet>(bulletPrefab);
+        newBullet.transform.position = bulletOrigin.position;
+        newBullet.transform.LookAt(cosestTarget.transform, Vector3.up);
+
+        Debug.DrawLine(transform.position, cosestTarget.transform.position, Color.red, 0.1f);
+
+        cosestTarget = null;
     }
 
     AvatarWeaponTarget FindClosestTarget() {
