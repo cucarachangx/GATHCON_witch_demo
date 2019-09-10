@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 1502473857227972930}
   - component: {fileID: 1502473857227972932}
   - component: {fileID: 1502473857227972931}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: PS_SecondaryHeartSmoke
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -46,7 +46,7 @@ ParticleSystem:
   cullingMode: 0
   ringBufferMode: 0
   ringBufferLoopRange: {x: 0, y: 1}
-  looping: 1
+  looping: 0
   prewarm: 0
   playOnAwake: 1
   useUnscaledTime: 0
@@ -4767,7 +4767,7 @@ GameObject:
   - component: {fileID: 1502473857840312965}
   - component: {fileID: 1502473857840312967}
   - component: {fileID: 1502473857840312966}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: PS_MainHeartSmoke
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4783,7 +4783,7 @@ Transform:
   m_GameObject: {fileID: 1502473857840312964}
   m_LocalRotation: {x: -0.66948545, y: -0.66948545, z: -0.22757252, w: 0.22757252}
   m_LocalPosition: {x: 0.02, y: 1.742, z: -0.32700014}
-  m_LocalScale: {x: 0.41, y: 0.41, z: 0.41}
+  m_LocalScale: {x: 0.45, y: 0.45, z: 0.45}
   m_Children:
   - {fileID: 1502473857227972930}
   - {fileID: 3806896460929013286}
@@ -9534,7 +9534,7 @@ GameObject:
   - component: {fileID: 3806896460929013286}
   - component: {fileID: 9155821562303451157}
   - component: {fileID: 1527368275449611644}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: PS_SecondaryHeartSmoke (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
