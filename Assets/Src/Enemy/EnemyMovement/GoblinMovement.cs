@@ -13,7 +13,9 @@ public class GoblinMovement : EnemyMovement
     bool following = false;
     Animator animator = null;
 
-    private void Start() {
+
+    protected override void Start() {
+        base.Start();
         animator = GetComponent<Animator>();
     }
 
