@@ -513,11 +513,6 @@ PrefabInstance:
       propertyPath: avatarInputsGOs.Array.data[0]
       value: 
       objectReference: {fileID: 7698467465082962498}
-    - target: {fileID: 2507926949120518219, guid: 48ff3ca6351c8ce40963adb05cfaa2d9,
-        type: 3}
-      propertyPath: m_Camera
-      value: 
-      objectReference: {fileID: 1274414397}
     - target: {fileID: 2507926949688959280, guid: 48ff3ca6351c8ce40963adb05cfaa2d9,
         type: 3}
       propertyPath: m_AnchorMax.x
@@ -528,6 +523,11 @@ PrefabInstance:
       propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2507926949120518219, guid: 48ff3ca6351c8ce40963adb05cfaa2d9,
+        type: 3}
+      propertyPath: m_Camera
+      value: 
+      objectReference: {fileID: 1274414397}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 48ff3ca6351c8ce40963adb05cfaa2d9, type: 3}
 --- !u!1001 &3788848159584273955
@@ -749,6 +749,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Level
       objectReference: {fileID: 0}
+    - target: {fileID: 551416892569625947, guid: 6120686744d364358bf1558dc72566a7,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -6.416
+      objectReference: {fileID: 0}
     - target: {fileID: 6842487868078161698, guid: 6120686744d364358bf1558dc72566a7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -810,11 +815,6 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 22100000, guid: bdd1e0f39147f4c2191f9993f0ff7169,
         type: 2}
-    - target: {fileID: 551416892569625947, guid: 6120686744d364358bf1558dc72566a7,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -6.416
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6120686744d364358bf1558dc72566a7, type: 3}
 --- !u!114 &7698467465082962498 stripped
