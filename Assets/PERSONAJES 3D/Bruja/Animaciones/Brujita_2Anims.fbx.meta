@@ -131,8 +131,8 @@ ModelImporter:
     - serializedVersion: 16
       name: Armature|Walk
       takeName: Armature|IdleWalk
-      firstFrame: 188
-      lastFrame: 217
+      firstFrame: 100
+      lastFrame: 130
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -159,8 +159,8 @@ ModelImporter:
     - serializedVersion: 16
       name: Armature|Attack
       takeName: Armature|IdleWalk
-      firstFrame: 256
-      lastFrame: 281
+      firstFrame: 170
+      lastFrame: 190
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -194,8 +194,8 @@ ModelImporter:
     - serializedVersion: 16
       name: Armature|Death
       takeName: Armature|IdleWalk
-      firstFrame: 290
-      lastFrame: 324
+      firstFrame: 195
+      lastFrame: 204
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
