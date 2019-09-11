@@ -24,7 +24,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _TextureSample0:
-        m_Texture: {fileID: 2800000, guid: e6d8fd72e9262da4b926f36c8c7fed7e, type: 3}
+        m_Texture: {fileID: 2800000, guid: d9efac8b7abfa20479e9d3f243da9779, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _TextureSample1:
@@ -49,20 +49,14 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Floats:
     - _CantidadDistorsion: 0.108
-    - _ColorChanger0051: 1
-    - _Cutoff: 0.28
+    - _Cutoff: 0.1
     - _Float0: 3
     - _Float1: 212.03
     - _Float2: 8.65
     - _Float3: 55
-    - _Intensity: 3
-    - _Keyword0: 0
     - __dirty: 0
     m_Colors:
-    - _BaseColor: {r: 0, g: 0.17977524, b: 1, a: 1}
-    - _Color0: {r: 0, g: 0.17977524, b: 1, a: 1}
+    - _Color0: {r: 0, g: 0.06249924, b: 0.3490566, a: 1}
     - _Color1: {r: 1, g: 1, b: 1, a: 1}
-    - _Color2: {r: 0.9568629, g: 0, b: 1, a: 1}
-    - _Color3: {r: 0.048399266, g: 0.5660378, b: 0, a: 1}
     - _Speed: {r: -0.1, g: 0.3, b: 0, a: 0}
     - _Vector0: {r: 0.1, g: 0.2, b: 0, a: 0}

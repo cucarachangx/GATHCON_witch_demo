@@ -10,32 +10,27 @@ public class AvatarHealth : MonoBehaviour
 
     public float currentHealth;
 
-    float maxHealth = 100;
+    public float maxHealth;
 
     public float healthBarYOffset = 2f;
 
-    private void Start()
-    {
-        healthBar.position = new Vector3(transform.position.x, transform.position.y + healthBarYOffset, transform.position.z);
-        healthFill.value = 1;
-    }
-
     void Update()
     {
-        //PositionHealthBar();
-        healthBar.LookAt(Camera.main.transform);
+        PositionHealthBar();
     }
 
     public void ChangeHealth (float amount)
     {
-        currentHealth = amount;
-        healthFill.value = (currentHealth / maxHealth);
+        currentHealth += amount;
+        currentHealth = Mathf.Clamp(currentHealth, 0f,maxHealth);
+
+        healthFill.value = currentHealth / maxHealth;
     }
 
-    /*private void PositionHealthBar()
+    private void PositionHealthBar()
     {
         Vector3 currentPos = transform.position;
         healthBar.position = new Vector3(currentPos.x, currentPos.y + healthBarYOffset, currentPos.z);
         healthBar.LookAt(Camera.main.transform);
-    }*/
+    }
 }
