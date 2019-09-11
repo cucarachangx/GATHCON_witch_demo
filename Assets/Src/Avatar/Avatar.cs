@@ -14,7 +14,10 @@ public class Avatar : MonoBehaviour
 
     [SerializeField]
     AvatarHealth avatarH;
-
+    [SerializeField]
+    GameObject poisonBottle;
+    [SerializeField]
+    GameObject loveBottle;
 
     void Start() {
         movementComp = GetComponent<AvatarMovement>();
@@ -48,7 +51,6 @@ public class Avatar : MonoBehaviour
         weaponComp.enabled = false;
         movementComp.enabled = false;
     }
-
     void ReceiveLife()
     {
         animator.SetTrigger("Health");
@@ -56,5 +58,22 @@ public class Avatar : MonoBehaviour
 
     private void OnDestroy() {
         currentAvatar = null;
+    }
+
+    void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.Equals(poisonBottle))
+        {
+            this.transform.GetChild(3).gameObject.SetActive(true);
+            other.gameObject.SetActive(false);
+        }
+        else
+        {
+            if (other.gameObject.Equals(loveBottle))
+            {
+                this.transform.GetChild(4).gameObject.SetActive(true);
+                other.gameObject.SetActive(false);
+            }
+        }
     }
 }
