@@ -507,6 +507,11 @@ PrefabInstance:
       propertyPath: avatarInputsGOs.Array.data[0]
       value: 
       objectReference: {fileID: 7698467465082962498}
+    - target: {fileID: 3427643548223235403, guid: 48ff3ca6351c8ce40963adb05cfaa2d9,
+        type: 3}
+      propertyPath: life
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 48ff3ca6351c8ce40963adb05cfaa2d9, type: 3}
 --- !u!1001 &3788848159584273955
