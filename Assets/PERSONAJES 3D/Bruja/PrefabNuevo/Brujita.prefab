@@ -703,6 +703,7 @@ GameObject:
   - component: {fileID: 3427643548223235405}
   - component: {fileID: 3427643548223235402}
   - component: {fileID: 3427643548223235403}
+  - component: {fileID: 5572036479625816614}
   m_Layer: 8
   m_Name: Brujita
   m_TagString: Untagged
@@ -826,6 +827,23 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   life: 30
+--- !u!114 &5572036479625816614
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3427643548343165552}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d055ddf4ff53d1459b8f83b70d10a16, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  healthBar: {fileID: 0}
+  healthFill: {fileID: 0}
+  currentHealth: 0
+  maxHealth: 0
+  healthBarYOffset: 2
 --- !u!1 &3427643548343165554
 GameObject:
   m_ObjectHideFlags: 0
