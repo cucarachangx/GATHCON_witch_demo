@@ -29,7 +29,7 @@ public class AvatarHealth : MonoBehaviour
     public void ChangeHealth (float amount)
     {
         currentHealth = amount;
-        healthFill.value -= currentHealth / maxHealth;
+        healthFill.value = (currentHealth / maxHealth);
     }
 
     /*private void PositionHealthBar()
