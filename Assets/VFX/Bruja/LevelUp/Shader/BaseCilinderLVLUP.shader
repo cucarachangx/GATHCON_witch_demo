@@ -107,11 +107,11 @@ Shader "Hidden/Templates/Unlit"
 				ase_worldViewDir = normalize(ase_worldViewDir);
 				float3 ase_worldNormal = i.ase_texcoord1.xyz;
 				float fresnelNdotV4 = dot( ase_worldNormal, ase_worldViewDir );
-				float fresnelNode4 = ( 0.0 + _FresnelScale * pow( 1.0 - fresnelNdotV4, _FresnelPower ) );
+				float fresnelNode4 = ( -0.13 + _FresnelScale * pow( 1.0 - fresnelNdotV4, _FresnelPower ) );
 				float2 uv08 = i.ase_texcoord2.xy * float2( 1,1 ) + float2( 0,0 );
 				
 				
-				finalColor = ( ( fresnelNode4 * i.ase_color ) * ( pow( ( uv08.y * ( 1.0 - uv08.y ) ) , 3.0 ) * 100.0 ) );
+				finalColor = ( ( fresnelNode4 * i.ase_color ) * ( pow( ( uv08.y * ( 1.0 - uv08.y ) ) , 3.0 ) * 100.0 ) * i.ase_color.a );
 				return finalColor;
 			}
 			ENDCG
@@ -123,30 +123,31 @@ Shader "Hidden/Templates/Unlit"
 }
 /*ASEBEGIN
 Version=16900
--95;25;1906;943;1586.121;253.0728;1;True;False
+1247;83;1010;698;1313.282;279.273;1;True;False
 Node;AmplifyShaderEditor.TextureCoordinatesNode;8;-1034.121,287.9272;Float;False;0;-1;2;3;2;SAMPLER2D;;False;0;FLOAT2;1,1;False;1;FLOAT2;0,0;False;5;FLOAT2;0;FLOAT;1;FLOAT;2;FLOAT;3;FLOAT;4
 Node;AmplifyShaderEditor.OneMinusNode;12;-757.1212,428.9272;Float;False;1;0;FLOAT;0;False;1;FLOAT;0
 Node;AmplifyShaderEditor.RangedFloatNode;5;-1082.121,-66.0728;Float;False;Property;_FresnelScale;FresnelScale;1;0;Create;True;0;0;False;0;0;1;0;0;0;1;FLOAT;0
-Node;AmplifyShaderEditor.RangedFloatNode;6;-1033.121,130.9272;Float;False;Property;_FresnelPower;FresnelPower;0;0;Create;True;0;0;False;0;0;5;0;0;0;1;FLOAT;0
+Node;AmplifyShaderEditor.RangedFloatNode;6;-1033.121,130.9272;Float;False;Property;_FresnelPower;FresnelPower;0;0;Create;True;0;0;False;0;0;1.45;0;0;0;1;FLOAT;0
 Node;AmplifyShaderEditor.SimpleMultiplyOpNode;11;-570.1212,374.9272;Float;False;2;2;0;FLOAT;0;False;1;FLOAT;0;False;1;FLOAT;0
-Node;AmplifyShaderEditor.FresnelNode;4;-787.1212,-172.0728;Float;False;Standard;WorldNormal;ViewDir;False;5;0;FLOAT3;0,0,1;False;4;FLOAT3;0,0,0;False;1;FLOAT;0;False;2;FLOAT;1;False;3;FLOAT;5;False;1;FLOAT;0
 Node;AmplifyShaderEditor.VertexColorNode;3;-738.1212,14.9272;Float;False;0;5;COLOR;0;FLOAT;1;FLOAT;2;FLOAT;3;FLOAT;4
 Node;AmplifyShaderEditor.PowerNode;9;-431.1212,373.9272;Float;False;2;0;FLOAT;0;False;1;FLOAT;3;False;1;FLOAT;0
+Node;AmplifyShaderEditor.FresnelNode;4;-787.1212,-172.0728;Float;False;Standard;WorldNormal;ViewDir;False;5;0;FLOAT3;0,0,1;False;4;FLOAT3;0,0,0;False;1;FLOAT;-0.13;False;2;FLOAT;1;False;3;FLOAT;5;False;1;FLOAT;0
 Node;AmplifyShaderEditor.SimpleMultiplyOpNode;2;-532.1212,-177.0728;Float;True;2;2;0;FLOAT;0;False;1;COLOR;0,0,0,0;False;1;COLOR;0
 Node;AmplifyShaderEditor.SimpleMultiplyOpNode;10;-263.1212,351.9272;Float;True;2;2;0;FLOAT;0;False;1;FLOAT;100;False;1;FLOAT;0
-Node;AmplifyShaderEditor.SimpleMultiplyOpNode;7;-136.1212,-15.0728;Float;True;2;2;0;COLOR;0,0,0,0;False;1;FLOAT;0;False;1;COLOR;0
+Node;AmplifyShaderEditor.SimpleMultiplyOpNode;7;-136.1212,-15.0728;Float;True;3;3;0;COLOR;0,0,0,0;False;1;FLOAT;0;False;2;FLOAT;0;False;1;COLOR;0
 Node;AmplifyShaderEditor.TemplateMultiPassMasterNode;0;159,-30;Float;False;True;2;Float;ASEMaterialInspector;0;1;Hidden/Templates/Unlit;0770190933193b94aaa3065e307002fa;True;Unlit;0;0;Unlit;2;True;4;1;False;-1;1;False;-1;0;1;False;-1;1;False;-1;True;0;False;-1;0;False;-1;True;False;True;0;False;-1;True;True;True;True;True;0;False;-1;True;False;255;False;-1;255;False;-1;255;False;-1;7;False;-1;1;False;-1;1;False;-1;1;False;-1;7;False;-1;1;False;-1;1;False;-1;1;False;-1;True;2;False;-1;True;0;False;-1;True;True;0;False;-1;0;False;-1;True;2;RenderType=Transparent=RenderType;Queue=Transparent=Queue=0;True;2;0;False;False;False;False;False;False;False;False;False;True;1;LightMode=ForwardBase;False;0;;0;0;Standard;1;Vertex Position,InvertActionOnDeselection;1;0;1;True;False;2;0;FLOAT4;0,0,0,0;False;1;FLOAT3;0,0,0;False;0
 WireConnection;12;0;8;2
 WireConnection;11;0;8;2
 WireConnection;11;1;12;0
+WireConnection;9;0;11;0
 WireConnection;4;2;5;0
 WireConnection;4;3;6;0
-WireConnection;9;0;11;0
 WireConnection;2;0;4;0
 WireConnection;2;1;3;0
 WireConnection;10;0;9;0
 WireConnection;7;0;2;0
 WireConnection;7;1;10;0
+WireConnection;7;2;3;4
 WireConnection;0;0;7;0
 ASEEND*/
-//CHKSM=FC63EB160136EE75B5AF0C4C4757AA7DE21BA647
+//CHKSM=23B814DFFBD0B11956F9F2705AD7E2AA239796FD

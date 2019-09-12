@@ -28,6 +28,6 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - _FresnelPower: 1.52
+    - _FresnelPower: 1.45
     - _FresnelScale: 1
     m_Colors: []
