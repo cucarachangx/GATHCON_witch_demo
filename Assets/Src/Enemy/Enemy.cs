@@ -4,16 +4,20 @@ using UnityEngine;
 
 public class Enemy : MonoBehaviour
 {
-    public float life = 3;
+    public float life = 10;
+    public float bulletDamage;
     public bool inmortal = false;
 
 
     EnemyWeapon weaponComp = null;
     Animator animator = null;
 
+    [SerializeField]
+    AvatarHealth healthBarScr;
 
     // Start is called before the first frame update
     void Start() {
+        healthBarScr.SetUpMaxHealth(life);
         weaponComp = GetComponent<EnemyWeapon>();
         animator = GetComponent<Animator>();
 
@@ -26,9 +30,9 @@ public class Enemy : MonoBehaviour
 
         if(!inmortal) {
             animator.SetTrigger("TakeDamage");
-
             life -= bullet.damage;
-            if(life <= 0)
+            healthBarScr.ChangeHealth(life);
+            if (life <= 0)
                 Die();
         }
 
