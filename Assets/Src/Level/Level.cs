@@ -27,6 +27,7 @@ public class Level : MonoBehaviour
 
     void AllEnemiesDead() {
         levelGoal.Open();
+        EventDispatcher.AllEnemiesDead();
     }
 
     public void AvatarReachesTheGoal() {

@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 6294119582571692434}
   - component: {fileID: 7659064823411428019}
   - component: {fileID: 7112750808060263460}
+  - component: {fileID: 318717442601081558}
   m_Layer: 9
   m_Name: Hada
   m_TagString: Untagged
@@ -69,7 +70,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70e6eaf45ccce426dbcaee9c00fa338c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  life: 10
+  life: 5
   inmortal: 0
 --- !u!114 &1690449537726568548
 MonoBehaviour:
@@ -130,6 +131,22 @@ CapsuleCollider:
   m_Height: 2.61
   m_Direction: 1
   m_Center: {x: 0, y: 0.5, z: 0}
+--- !u!114 &318717442601081558
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 142401787186197375}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 369e0ca1897474084b63e015554d48b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectsToSpawn:
+  - prefab: {fileID: 3538017200446629703, guid: f570fd967c7464613a715fff5b8a9154,
+      type: 3}
+    count: 10
 --- !u!1 &2902924669698807809
 GameObject:
   m_ObjectHideFlags: 0

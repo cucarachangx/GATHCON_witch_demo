@@ -24,6 +24,15 @@ public class Drop : MonoBehaviour {
     void Start() {
         rigid = GetComponent<Rigidbody>();
         rigid.velocity = CalculateInitialForce();
+
+        if(LevelsController.GetInstance().currenLevel != null && LevelsController.GetInstance().currenLevel.enemies.Count == 0)
+            AllEnemiesDead();
+        else
+            EventDispatcher.AllEnemiesDead += AllEnemiesDead;
+    }
+
+    private void OnDestroy() {
+        EventDispatcher.AllEnemiesDead -= AllEnemiesDead;
     }
 
     private void Update() {
@@ -32,6 +41,9 @@ public class Drop : MonoBehaviour {
             Vector3.Distance(transform.position, Avatar.currentAvatar.transform.position) <= magnetRadio) {
             FlyToAvatar();
         }
+
+        if(flyingToAvatar)
+            UpdateFlyingToAvatar();
     }
 
     Vector3 CalculateInitialForce() {
@@ -54,7 +66,7 @@ public class Drop : MonoBehaviour {
     }
 
     
-    void UpdateFlyToAvatar() {
+    void UpdateFlyingToAvatar() {
         if(Avatar.currentAvatar == null) {
             flyingToAvatar = false;
             return;
@@ -70,5 +82,10 @@ public class Drop : MonoBehaviour {
 
     protected virtual void OnGrab(Avatar avatar) {
         Destroy(gameObject);
+    }
+
+    void AllEnemiesDead() {
+        if(collectOnFinishLvl)
+            FlyToAvatar();
     }
 }
