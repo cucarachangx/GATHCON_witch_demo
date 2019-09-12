@@ -11,8 +11,16 @@ public class GoblinMovement : EnemyMovement
     [SerializeField] float autopathReachDist = 1f;
     int autoPathIdx = 0;
     bool following = false;
+    Animator animator = null;
+
+
+    protected override void Start() {
+        base.Start();
+        animator = GetComponent<Animator>();
+    }
 
     private void Update() {
+        animator.SetFloat("Speed", 0f);
         if(following) {
             UpdateFollowing();
 
@@ -34,6 +42,7 @@ public class GoblinMovement : EnemyMovement
     void UpdateFollowing() {
         if(Avatar.currentAvatar != null) {
             base.agent.destination = Avatar.currentAvatar.transform.position;
+            animator.SetFloat("Speed", speed);
         }
         else
             following = false;
@@ -52,6 +61,7 @@ public class GoblinMovement : EnemyMovement
         }
         
         base.agent.destination = dest;
+        animator.SetFloat("Speed", speed);
     }
 
     private void OnDrawGizmosSelected() {

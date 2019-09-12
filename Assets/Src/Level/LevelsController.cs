@@ -34,6 +34,11 @@ public class LevelsController : Singleton<LevelsController>
     }
 
     public void LevelCompleted() {
+
+        UnityEngine.SceneManagement.SceneManager.LoadScene(UnityEngine.SceneManagement.SceneManager.GetActiveScene().name);
+        //TODO: arreglar esto, que funcione el paso de niveles
+
+        return;
         DestroyCurrentLevel();
         levelIndex++;
         if(levelIndex >= levelPrefabs.Length)

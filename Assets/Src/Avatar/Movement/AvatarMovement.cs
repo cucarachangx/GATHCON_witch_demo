@@ -40,6 +40,7 @@ public class AvatarMovement : MonoBehaviour {
         myRigidbody.velocity = vel;
 
         UpdateAnimator(vel);
+        UpdateRotation(vel);
     }
 
     void UpdateAnimator(Vector3 velocity) {
@@ -49,7 +50,11 @@ public class AvatarMovement : MonoBehaviour {
         else
             velocity.x = 0;
 
-        animator.SetFloat("xSpeed", velocity.x);
-        animator.SetFloat("zSpeed", velocity.z);
+        animator.SetFloat("Speed", velocity.magnitude);
+    }
+
+    void UpdateRotation(Vector3 velocity) {
+        if(velocity.magnitude > 0)
+            transform.LookAt(transform.position + velocity.normalized, Vector3.up);
     }
 }

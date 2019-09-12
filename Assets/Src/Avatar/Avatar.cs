@@ -12,7 +12,10 @@ public class Avatar : MonoBehaviour
     AvatarWeapon weaponComp = null;
     Animator animator = null;
 
-    // Start is called before the first frame update
+    [SerializeField]
+    AvatarHealth avatarH;
+
+
     void Start() {
         movementComp = GetComponent<AvatarMovement>();
         weaponComp = GetComponent<AvatarWeapon>();
@@ -25,7 +28,9 @@ public class Avatar : MonoBehaviour
     }
 
     public bool ReceiveImpact(EnemyBullet bullet) {
+
         life -= bullet.damage;
+        avatarH.ChangeHealth(life);
         animator.SetTrigger("TakeDamage");
 
         if(life <= 0) {

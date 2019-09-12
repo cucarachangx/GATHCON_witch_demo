@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 6377832148757960862}
   - component: {fileID: 6377832148757960860}
   - component: {fileID: 6377832148757960861}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: PS_Bubbles
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -660,7 +660,7 @@ ParticleSystem:
     serializedVersion: 6
     enabled: 1
     type: 4
-    angle: 24.9
+    angle: 0
     length: 5
     boxThickness: {x: 0, y: 0, z: 0}
     radiusThickness: 1
