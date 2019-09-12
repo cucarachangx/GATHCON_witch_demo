@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 6294119582571692434}
   - component: {fileID: 7659064823411428019}
   - component: {fileID: 7112750808060263460}
-  m_Layer: 11
+  m_Layer: 9
   m_Name: Hada
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -139,7 +139,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2902924669698573345}
-  m_Layer: 11
+  m_Layer: 9
   m_Name: Leg.l
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -170,7 +170,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2902924669698573347}
-  m_Layer: 11
+  m_Layer: 9
   m_Name: Head
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -200,7 +200,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2902924669698573349}
-  m_Layer: 11
+  m_Layer: 9
   m_Name: Hand.r
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -230,7 +230,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2902924669698573351}
-  m_Layer: 11
+  m_Layer: 9
   m_Name: Hand.l
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -260,7 +260,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2902924669698573353}
-  m_Layer: 11
+  m_Layer: 9
   m_Name: Neck
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -291,7 +291,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2902924669698573355}
-  m_Layer: 11
+  m_Layer: 9
   m_Name: Leg2.r
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -321,7 +321,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2902924669698573357}
-  m_Layer: 11
+  m_Layer: 9
   m_Name: Leg2.l
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -351,7 +351,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2902924669698573359}
-  m_Layer: 11
+  m_Layer: 9
   m_Name: Leg.r
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -382,7 +382,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2902924669698573361}
-  m_Layer: 11
+  m_Layer: 9
   m_Name: Column
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -417,7 +417,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2902924669698573363}
-  m_Layer: 11
+  m_Layer: 9
   m_Name: Armature
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -438,7 +438,7 @@ Transform:
   - {fileID: 2902924669698573335}
   m_Father: {fileID: 8896912924076417320}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: -103.934, y: -0.000015258789, z: 0}
 --- !u!1 &2902924669698807829
 GameObject:
   m_ObjectHideFlags: 0
@@ -448,7 +448,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2902924669698573365}
-  m_Layer: 11
+  m_Layer: 9
   m_Name: Arm.r
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -479,7 +479,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2902924669698573367}
-  m_Layer: 11
+  m_Layer: 9
   m_Name: Arm.l
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -511,7 +511,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2902924669698573369}
   - component: {fileID: 2902924669710308631}
-  m_Layer: 11
+  m_Layer: 9
   m_Name: Hadita_Low.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -607,7 +607,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2902924669698573373}
-  m_Layer: 11
+  m_Layer: 9
   m_Name: Elbow.r
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -638,7 +638,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2902924669698573375}
-  m_Layer: 11
+  m_Layer: 9
   m_Name: Elbow.l
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -669,7 +669,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2902924669698573331}
-  m_Layer: 11
+  m_Layer: 9
   m_Name: Wings.r
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -699,7 +699,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2902924669698573333}
-  m_Layer: 11
+  m_Layer: 9
   m_Name: Wings.l
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -729,7 +729,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2902924669698573335}
-  m_Layer: 11
+  m_Layer: 9
   m_Name: Waist
   m_TagString: Untagged
   m_Icon: {fileID: 0}
