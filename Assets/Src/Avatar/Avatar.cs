@@ -17,6 +17,7 @@ public class Avatar : MonoBehaviour
 
 
     void Start() {
+        avatarH.SetUpMaxHealth(life);
         movementComp = GetComponent<AvatarMovement>();
         weaponComp = GetComponent<AvatarWeapon>();
         animator = GetComponent<Animator>();

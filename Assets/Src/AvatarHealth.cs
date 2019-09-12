@@ -20,10 +20,11 @@ public class AvatarHealth : MonoBehaviour
         healthFill.value = 1;
     }
 
-    void Update()
+    void LateUpdate()
     {
         //PositionHealthBar();
-        healthBar.LookAt(Camera.main.transform);
+        // healthBar.LookAt(Camera.main.transform,Vector3.up);
+        healthBar.rotation = Quaternion.identity;
     }
 
     public void ChangeHealth (float amount)
@@ -32,6 +33,10 @@ public class AvatarHealth : MonoBehaviour
         healthFill.value = (currentHealth / maxHealth);
     }
 
+    public void SetUpMaxHealth(float amount)
+    {
+        maxHealth = amount;
+    }
     /*private void PositionHealthBar()
     {
         Vector3 currentPos = transform.position;
