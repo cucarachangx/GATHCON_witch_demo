@@ -335,6 +335,11 @@ PrefabInstance:
       propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 318717442601081558, guid: d7cae2b9065f442108163173e8a0230f,
+        type: 3}
+      propertyPath: identityRotation
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d7cae2b9065f442108163173e8a0230f, type: 3}
 --- !u!1001 &2955851362072334529
@@ -543,6 +548,21 @@ PrefabInstance:
       propertyPath: m_Camera
       value: 
       objectReference: {fileID: 1274414397}
+    - target: {fileID: 1028999783373086589, guid: 48ff3ca6351c8ce40963adb05cfaa2d9,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1764945213868869855, guid: 48ff3ca6351c8ce40963adb05cfaa2d9,
+        type: 3}
+      propertyPath: m_Name
+      value: PS_LevelUp
+      objectReference: {fileID: 0}
+    - target: {fileID: 1028999783373086591, guid: 48ff3ca6351c8ce40963adb05cfaa2d9,
+        type: 3}
+      propertyPath: m_RenderAlignment
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 48ff3ca6351c8ce40963adb05cfaa2d9, type: 3}
 --- !u!1001 &3788848159584273955
@@ -1012,11 +1032,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Globin
-      objectReference: {fileID: 0}
-    - target: {fileID: 8950453352405493272, guid: 9f3c0d35f2a786d498e2e18409205073,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8950453352405334584, guid: 9f3c0d35f2a786d498e2e18409205073,
         type: 3}

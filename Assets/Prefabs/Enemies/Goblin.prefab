@@ -561,6 +561,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 369e0ca1897474084b63e015554d48b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  identityRotation: 1
   objectsToSpawn:
   - prefab: {fileID: 3538017200446629703, guid: f570fd967c7464613a715fff5b8a9154,
       type: 3}

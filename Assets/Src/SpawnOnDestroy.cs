@@ -5,6 +5,8 @@ using System;
 
 public class SpawnOnDestroy : MonoBehaviour {
 
+    public bool identityRotation = false;
+
     [Serializable]
     public class PrefabCount {
         public GameObject prefab = null;
@@ -26,7 +28,7 @@ public class SpawnOnDestroy : MonoBehaviour {
                 GameObject newGO = Instantiate<GameObject>(
                     obj.prefab,
                     transform.position,
-                    transform.rotation);
+                    (identityRotation) ? Quaternion.identity : transform.rotation);
             }
         }
     }
