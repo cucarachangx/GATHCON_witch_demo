@@ -44,7 +44,7 @@ SphereCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6145897125608419575}
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
   m_Radius: 0.5
@@ -79,8 +79,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rotationIdentity: 1
   objectsToSpawn:
-  - prefab: {fileID: 3529922023252531073, guid: 836d6f98a7fa4a243b35b14848133a0a,
-      type: 3}
+  - prefab: {fileID: 0}
     count: 1
 --- !u!114 &700068421
 MonoBehaviour:
@@ -98,7 +97,7 @@ MonoBehaviour:
   spawnForce: {x: 0, y: 0, z: 0}
   rndSpawnForceRange: {x: 0, y: 0, z: 0}
   magnetRadio: 5
-  accelerationToAvatar: 1
+  accelerationToAvatar: 5
   initialFlySpeed: 0.3
   distanceToGrab: 1
 --- !u!1 &6145897126280135444
