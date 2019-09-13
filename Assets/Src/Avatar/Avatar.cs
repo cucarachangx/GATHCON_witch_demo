@@ -41,6 +41,12 @@ public class Avatar : MonoBehaviour
         return true;
     }
 
+    public void AddHealth(float amount) {
+        life += amount;
+        avatarH.ChangeHealth(life);
+        animator.SetTrigger("Health");
+    }
+
     void Die() {
         animator.SetTrigger("Dead");
         Destroy(gameObject, 1f);
@@ -58,4 +64,5 @@ public class Avatar : MonoBehaviour
     private void OnDestroy() {
         currentAvatar = null;
     }
+
 }
