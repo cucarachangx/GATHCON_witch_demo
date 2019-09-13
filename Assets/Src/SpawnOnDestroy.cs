@@ -6,10 +6,11 @@ using System;
 public class SpawnOnDestroy : MonoBehaviour {
 
     public bool rotationIdentity = false;
-
+    public bool usePlaceHolder = false;
     [Serializable]
     public class PrefabCount {
         public GameObject prefab = null;
+        public GameObject parentPlaceholder = null;
         public int count = 0;
     }
 
@@ -27,7 +28,7 @@ public class SpawnOnDestroy : MonoBehaviour {
             for(int i = 0; i < obj.count; i++) {
                 GameObject newGO = Instantiate<GameObject>(
                     obj.prefab,
-                    transform.position,
+                    (usePlaceHolder) ? obj.parentPlaceholder.transform.position : transform.position,
                     (rotationIdentity) ? Quaternion.identity : transform.rotation);
             }
         }
