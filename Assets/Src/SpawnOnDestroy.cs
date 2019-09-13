@@ -29,7 +29,7 @@ public class SpawnOnDestroy : MonoBehaviour {
                 GameObject newGO = Instantiate<GameObject>(
                     obj.prefab,
                     (usePlaceHolder) ? obj.parentPlaceholder.transform.position : transform.position,
-                    (rotationIdentity) ? Quaternion.identity : transform.rotation);
+                    (rotationIdentity) ? Quaternion.identity : obj.prefab.transform.rotation);
             }
         }
     }
