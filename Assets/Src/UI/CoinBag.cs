@@ -5,6 +5,8 @@ using UnityEngine.UI;
 
 public class CoinBag : Singleton<CoinBag> {
     [SerializeField] Text coinsLabel = null;
+    [SerializeField]
+    AudioSource coinSource;
 
     int coins = 0;
 
