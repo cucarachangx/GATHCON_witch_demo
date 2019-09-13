@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Level : MonoBehaviour
 {
+    [HideInInspector]
     public List<Enemy> enemies = new List<Enemy>();
 
     public Transform avatarSpawn = null;
@@ -32,5 +33,14 @@ public class Level : MonoBehaviour
 
     public void AvatarReachesTheGoal() {
         LevelsController.GetInstance().LevelCompleted();
+    }
+
+    private void OnDrawGizmos() {
+        Gizmos.color = Color.magenta;
+        if(avatarSpawn)
+            Gizmos.DrawCube(avatarSpawn.transform.position, Vector3.one);
+        Gizmos.color = Color.yellow;
+        if(levelGoal)
+            Gizmos.DrawCube(levelGoal.transform.position, Vector3.one);
     }
 }
