@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 460719005147037086}
   - component: {fileID: 2193210492776342339}
   - component: {fileID: 2193210492776342340}
+  - component: {fileID: 6689957904242325019}
   m_Layer: 12
   m_Name: HadaBullet
   m_TagString: Untagged
@@ -78,6 +79,26 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 112
   m_CollisionDetection: 3
+--- !u!114 &6689957904242325019
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2193210492776342341}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 369e0ca1897474084b63e015554d48b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rotationIdentity: 1
+  usePlaceHolder: 1
+  objectsToSpawn:
+  - prefab: {fileID: 1669029364996565951, guid: 434800c30e4a2b847835f6573c0ca887,
+      type: 3}
+    parentPlaceholder: {fileID: 1304857769145807327, guid: 4feda72558c71b542a7472e19ee482d4,
+      type: 3}
+    count: 1
 --- !u!1 &2193210492989516235
 GameObject:
   m_ObjectHideFlags: 0

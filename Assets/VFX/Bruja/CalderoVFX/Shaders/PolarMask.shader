@@ -4,7 +4,7 @@ Shader "Battlerite/VFX1"
 {
 	Properties
 	{
-		[HDR]_Color("Color", Color) = (0.7075472,0.06341223,0.06341223,0)
+		[HDR]_Color("Color", Color) = (0.7075472,0.06341223,0.06341223,1)
 		_Noise("Noise", 2D) = "white" {}
 		[HideInInspector] _texcoord( "", 2D ) = "white" {}
 		[HideInInspector] _tex4coord( "", 2D ) = "white" {}
@@ -134,7 +134,7 @@ Shader "Battlerite/VFX1"
 }
 /*ASEBEGIN
 Version=16900
-379;676;1906;658;267.5721;368.5042;1.3;True;False
+7;420;1906;591;807.0723;257.3541;1.3;True;False
 Node;AmplifyShaderEditor.TextureCoordinatesNode;2;-986.5,92.5;Float;False;0;-1;2;3;2;SAMPLER2D;;False;0;FLOAT2;1,1;False;1;FLOAT2;-0.5,-0.5;False;5;FLOAT2;0;FLOAT;1;FLOAT;2;FLOAT;3;FLOAT;4
 Node;AmplifyShaderEditor.TexCoordVertexDataNode;33;-985.1722,376.3956;Float;False;0;4;0;5;FLOAT4;0;FLOAT;1;FLOAT;2;FLOAT;3;FLOAT;4
 Node;AmplifyShaderEditor.SimpleMultiplyOpNode;30;-646.0831,424.6402;Float;False;2;2;0;FLOAT;0;False;1;FLOAT;2;False;1;FLOAT;0
@@ -144,12 +144,12 @@ Node;AmplifyShaderEditor.FunctionNode;32;-625.2152,657.3771;Float;True;PolarCoor
 Node;AmplifyShaderEditor.WireNode;31;-253.577,63.88913;Float;False;1;0;FLOAT;0;False;1;FLOAT;0
 Node;AmplifyShaderEditor.SamplerNode;14;-303.6132,625.177;Float;True;Property;_Noise;Noise;1;0;Create;True;0;0;False;0;641cf02b46150004099cf11b4753918d;8bda69dfcbffab34ea3335395c4766c4;True;0;False;white;Auto;False;Object;-1;Auto;Texture2D;6;0;SAMPLER2D;;False;1;FLOAT2;0,0;False;2;FLOAT;0;False;3;FLOAT2;0,0;False;4;FLOAT2;0,0;False;5;FLOAT;1;False;5;COLOR;0;FLOAT;1;FLOAT;2;FLOAT;3;FLOAT;4
 Node;AmplifyShaderEditor.TFHCRemapNode;10;-203.1124,317.6779;Float;False;5;0;FLOAT;0;False;1;FLOAT;0;False;2;FLOAT;1;False;3;FLOAT;-1;False;4;FLOAT;0;False;1;FLOAT;0
-Node;AmplifyShaderEditor.SimpleAddOpNode;9;41.35925,501.1466;Float;True;2;2;0;FLOAT;0;False;1;FLOAT;0;False;1;FLOAT;0
 Node;AmplifyShaderEditor.StepOpNode;13;10.88629,84.47761;Float;True;2;0;FLOAT;0;False;1;FLOAT;0.5;False;1;FLOAT;0
+Node;AmplifyShaderEditor.SimpleAddOpNode;9;41.35925,501.1466;Float;True;2;2;0;FLOAT;0;False;1;FLOAT;0;False;1;FLOAT;0
 Node;AmplifyShaderEditor.SimpleMultiplyOpNode;11;323.5864,311.3776;Float;True;2;2;0;FLOAT;0;False;1;FLOAT;0;False;1;FLOAT;0
 Node;AmplifyShaderEditor.StepOpNode;22;621.449,311.4026;Float;True;2;0;FLOAT;0;False;1;FLOAT;0;False;1;FLOAT;0
 Node;AmplifyShaderEditor.OneMinusNode;23;871.4489,309.4026;Float;True;1;0;FLOAT;0;False;1;FLOAT;0
-Node;AmplifyShaderEditor.ColorNode;4;729.6855,17.20105;Float;False;Property;_Color;Color;0;1;[HDR];Create;True;0;0;False;0;0.7075472,0.06341223,0.06341223,0;1.233589,1.190359,0.4829619,1;True;0;5;COLOR;0;FLOAT;1;FLOAT;2;FLOAT;3;FLOAT;4
+Node;AmplifyShaderEditor.ColorNode;4;729.6855,17.20105;Float;False;Property;_Color;Color;0;1;[HDR];Create;True;0;0;False;0;0.7075472,0.06341223,0.06341223,1;1.233589,1.190359,0.4829619,1;True;0;5;COLOR;0;FLOAT;1;FLOAT;2;FLOAT;3;FLOAT;4
 Node;AmplifyShaderEditor.VertexColorNode;35;1006.428,-161.8041;Float;False;0;5;COLOR;0;FLOAT;1;FLOAT;2;FLOAT;3;FLOAT;4
 Node;AmplifyShaderEditor.RangedFloatNode;29;-1079.383,570.732;Float;False;Property;_Progression;Progression;2;0;Create;True;0;0;False;0;0.7548674;0.1387585;0;1;0;1;FLOAT;0
 Node;AmplifyShaderEditor.SimpleMultiplyOpNode;28;1130.039,209.8806;Float;False;2;2;0;FLOAT;0;False;1;FLOAT;0;False;1;FLOAT;0
@@ -162,9 +162,9 @@ WireConnection;5;2;30;0
 WireConnection;31;0;1;0
 WireConnection;14;1;32;0
 WireConnection;10;0;5;0
+WireConnection;13;0;31;0
 WireConnection;9;0;10;0
 WireConnection;9;1;14;2
-WireConnection;13;0;31;0
 WireConnection;11;0;13;0
 WireConnection;11;1;9;0
 WireConnection;22;0;11;0
@@ -176,4 +176,4 @@ WireConnection;34;1;4;0
 WireConnection;0;2;34;0
 WireConnection;0;9;28;0
 ASEEND*/
-//CHKSM=3068B59E7356C15D285F89E1D32134A33AA2756A
+//CHKSM=8B7A4F15E6F0826259FBA41AE765FCC5FA5203EE
