@@ -11,13 +11,13 @@ GameObject:
   - component: {fileID: 9019037907357228915}
   - component: {fileID: 9019037907357228913}
   - component: {fileID: 9019037907357228912}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: PS_VidaRecibida
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &9019037907357228915
 Transform:
   m_ObjectHideFlags: 0
@@ -4751,7 +4751,7 @@ ParticleSystemRenderer:
   m_EnableGPUInstancing: 1
   m_ApplyActiveColorSpace: 1
   m_AllowRoll: 1
-  m_VertexStreams: 00010420
+  m_VertexStreams: 0001042003
   m_Mesh: {fileID: 0}
   m_Mesh1: {fileID: 0}
   m_Mesh2: {fileID: 0}
@@ -4768,13 +4768,13 @@ GameObject:
   - component: {fileID: 9019037908019750888}
   - component: {fileID: 9019037908019750886}
   - component: {fileID: 9019037908019750889}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: PS_VidaRecibidaLittleSparks
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &9019037908019750888
 Transform:
   m_ObjectHideFlags: 0
@@ -5732,7 +5732,7 @@ ParticleSystem:
       countCurve:
         serializedVersion: 2
         minMaxState: 0
-        scalar: 7
+        scalar: 12
         minScalar: 30
         maxCurve:
           serializedVersion: 2
