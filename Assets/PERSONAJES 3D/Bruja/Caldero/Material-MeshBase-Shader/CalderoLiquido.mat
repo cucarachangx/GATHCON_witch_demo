@@ -48,21 +48,21 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - _CantidadDistorsion: 0.108
-    - _ColorChanger0051: 1
+    - _CantidadDistorsion: 0.16
+    - _ColorChanger0051: 0.652
     - _Cutoff: 0.28
     - _Float0: 3
     - _Float1: 212.03
     - _Float2: 8.65
     - _Float3: 55
-    - _Intensity: 3
+    - _Intensity: 0.68
     - _Keyword0: 0
     - __dirty: 0
     m_Colors:
-    - _BaseColor: {r: 0, g: 0.17977524, b: 1, a: 1}
+    - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _Color0: {r: 0, g: 0.17977524, b: 1, a: 1}
-    - _Color1: {r: 1, g: 1, b: 1, a: 1}
+    - _Color1: {r: 0, g: 0.18169522, b: 1, a: 1}
     - _Color2: {r: 0.9568629, g: 0, b: 1, a: 1}
-    - _Color3: {r: 0.048399266, g: 0.5660378, b: 0, a: 1}
+    - _Color3: {r: 0, g: 1, b: 0.74262595, a: 1}
     - _Speed: {r: -0.1, g: 0.3, b: 0, a: 0}
     - _Vector0: {r: 0.1, g: 0.2, b: 0, a: 0}
