@@ -247,12 +247,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!82 &1253961963 stripped
-AudioSource:
-  m_CorrespondingSourceObject: {fileID: 1222679689, guid: 48ff3ca6351c8ce40963adb05cfaa2d9,
-    type: 3}
-  m_PrefabInstance: {fileID: 3427643549544751206}
-  m_PrefabAsset: {fileID: 0}
 --- !u!20 &1274414397 stripped
 Camera:
   m_CorrespondingSourceObject: {fileID: 3788848160232739476, guid: 46cee5d32897149bf81e3adad16936e5,
@@ -455,11 +449,6 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2955851361474104093, guid: 910bcba792e594dae952aabbd81f1937,
-        type: 3}
-      propertyPath: coinSource
-      value: 
-      objectReference: {fileID: 1253961963}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 910bcba792e594dae952aabbd81f1937, type: 3}
 --- !u!1001 &3427643549544751206
@@ -549,26 +538,6 @@ PrefabInstance:
       propertyPath: m_Camera
       value: 
       objectReference: {fileID: 1274414397}
-    - target: {fileID: 1028999783373086589, guid: 48ff3ca6351c8ce40963adb05cfaa2d9,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1028999783373086588, guid: 48ff3ca6351c8ce40963adb05cfaa2d9,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1028999783373086588, guid: 48ff3ca6351c8ce40963adb05cfaa2d9,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 2.2
-      objectReference: {fileID: 0}
-    - target: {fileID: 1028999783373086588, guid: 48ff3ca6351c8ce40963adb05cfaa2d9,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -0.9
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 48ff3ca6351c8ce40963adb05cfaa2d9, type: 3}
 --- !u!1001 &3788848159584273955
