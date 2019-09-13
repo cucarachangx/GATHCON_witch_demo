@@ -15,6 +15,7 @@ public class Avatar : MonoBehaviour
     [SerializeField]
     AvatarHealth avatarH;
 
+
     void Start() {
         avatarH.SetUpMaxHealth(life);
         movementComp = GetComponent<AvatarMovement>();
