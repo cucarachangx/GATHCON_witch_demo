@@ -30,5 +30,4 @@ Material:
     m_Floats:
     - _FresnelPower: 1.45
     - _FresnelScale: 1
-    - _Intensity: 15
     m_Colors: []

@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: CloudsMeshesPoison
-  m_Shader: {fileID: 4800000, guid: 067e4f79344051c4fbf8670f72b452ab, type: 3}
+  m_Shader: {fileID: 4800000, guid: b4e1acdeeb5ef7b4280b7d10e77bc2f1, type: 3}
   m_ShaderKeywords: _COLORCOLOR_ON
   m_LightmapFlags: 0
   m_EnableInstancingVariants: 0
@@ -100,7 +100,7 @@ Material:
     - _ZWrite: 1
     - __dirty: 0
     m_Colors:
-    - _CambiarColor: {r: 0.77423966, g: 9.407747, b: 0.6656424, a: 1}
+    - _CambiarColor: {r: 1.1664615, g: 7.0465865, b: 1.0968744, a: 1}
     - _CameraFadeParams: {r: 0, g: Infinity, b: 0, a: 0}
     - _Color: {r: 0.1981132, g: 1, b: 0, a: 1}
     - _ColorAddSubDiff: {r: 1, g: 0, b: 0, a: 0}

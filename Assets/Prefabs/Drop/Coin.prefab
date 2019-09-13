@@ -12,7 +12,6 @@ GameObject:
   - component: {fileID: 3538017200446629691}
   - component: {fileID: 3538017200446629700}
   - component: {fileID: 3538017200446629690}
-  - component: {fileID: 6551627594645321117}
   m_Layer: 10
   m_Name: Coin
   m_TagString: Untagged
@@ -27,14 +26,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3538017200446629703}
-  m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0.561, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 3538017202117252337}
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &3538017200446629691
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -84,26 +83,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 112
   m_CollisionDetection: 1
---- !u!114 &6551627594645321117
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3538017200446629703}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 369e0ca1897474084b63e015554d48b8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  rotationIdentity: 1
-  usePlaceHolder: 1
-  objectsToSpawn:
-  - prefab: {fileID: 2533497866370479730, guid: 01f924e97ded3134aaccaa13772b9caf,
-      type: 3}
-    parentPlaceholder: {fileID: 1304857769145807327, guid: 4feda72558c71b542a7472e19ee482d4,
-      type: 3}
-    count: 1
 --- !u!1001 &5179892173777291059
 PrefabInstance:
   m_ObjectHideFlags: 0
