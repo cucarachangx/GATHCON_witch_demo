@@ -19738,6 +19738,7 @@ GameObject:
   - component: {fileID: 3427643548223235402}
   - component: {fileID: 3427643548223235403}
   - component: {fileID: 5572036479625816614}
+  - component: {fileID: 1222679689}
   m_Layer: 8
   m_Name: Brujita
   m_TagString: Untagged
@@ -19880,6 +19881,102 @@ MonoBehaviour:
   healthFill: {fileID: 2507926949594294955}
   currentHealth: 100
   healthBarYOffset: 4
+--- !u!82 &1222679689
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3427643548343165552}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: d1c304bea8cefd34cbf867874a54910b, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 0.428
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 182
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &3427643548343165554
 GameObject:
   m_ObjectHideFlags: 0
@@ -29896,6 +29993,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PS_MainPoisonSmoke
       objectReference: {fileID: 0}
+    - target: {fileID: 3529922023252531073, guid: 836d6f98a7fa4a243b35b14848133a0a,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3529922023252531072, guid: 836d6f98a7fa4a243b35b14848133a0a,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -29951,17 +30053,22 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -90
       objectReference: {fileID: 0}
+    - target: {fileID: 3529922023252531075, guid: 836d6f98a7fa4a243b35b14848133a0a,
+        type: 3}
+      propertyPath: m_RenderAlignment
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 836d6f98a7fa4a243b35b14848133a0a, type: 3}
---- !u!4 &1028999783373086588 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 3529922023252531072, guid: 836d6f98a7fa4a243b35b14848133a0a,
-    type: 3}
-  m_PrefabInstance: {fileID: 4520330592363186428}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &2304829815788657250 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2397909760078533278, guid: 836d6f98a7fa4a243b35b14848133a0a,
+    type: 3}
+  m_PrefabInstance: {fileID: 4520330592363186428}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1028999783373086588 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3529922023252531072, guid: 836d6f98a7fa4a243b35b14848133a0a,
     type: 3}
   m_PrefabInstance: {fileID: 4520330592363186428}
   m_PrefabAsset: {fileID: 0}

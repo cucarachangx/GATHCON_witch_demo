@@ -11,6 +11,7 @@ public class CoinBag : Singleton<CoinBag> {
     public void OnCollectedCoin(int amount) {
         coins += amount;
         coinsLabel.text = coins.ToString();
+        coinSource.Play();
         //TODO: ejecutar alguna animacion y sonido cada vez que recibe monedas
     }
 }

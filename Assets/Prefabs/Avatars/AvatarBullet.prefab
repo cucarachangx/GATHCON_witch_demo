@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 2193210492776342338}
   - component: {fileID: 2193210492776342339}
   - component: {fileID: 2193210492776342340}
+  - component: {fileID: 919791708614165888}
   m_Layer: 11
   m_Name: AvatarBullet
   m_TagString: Untagged
@@ -79,6 +80,23 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 112
   m_CollisionDetection: 3
+--- !u!114 &919791708614165888
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2193210492776342341}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 369e0ca1897474084b63e015554d48b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  identityRotation: 0
+  objectsToSpawn:
+  - prefab: {fileID: 6625001413475468978, guid: 665f7c540576a2b42957bd50dad38821,
+      type: 3}
+    count: 1
 --- !u!1 &2193210492989516235
 GameObject:
   m_ObjectHideFlags: 0
@@ -268,6 +286,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2193210492776342337}
     m_Modifications:
+    - target: {fileID: 956600348287804644, guid: bd0649ebd05210a46a6623252458aa79,
+        type: 3}
+      propertyPath: m_Name
+      value: PS_Drops(EstoEnLaBala)
+      objectReference: {fileID: 0}
     - target: {fileID: 956600348287804648, guid: bd0649ebd05210a46a6623252458aa79,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -322,11 +345,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: -90
-      objectReference: {fileID: 0}
-    - target: {fileID: 956600348287804644, guid: bd0649ebd05210a46a6623252458aa79,
-        type: 3}
-      propertyPath: m_Name
-      value: PS_Drops(EstoEnLaBala)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bd0649ebd05210a46a6623252458aa79, type: 3}

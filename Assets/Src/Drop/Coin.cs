@@ -9,6 +9,7 @@ public class Coin : Drop {
     protected override void OnGrab(Avatar avatar) {
         base.OnGrab(avatar);
         CoinBag.GetInstance().OnCollectedCoin(coinsCount);
+
     }
 
 }

@@ -25,7 +25,6 @@ public class AvatarBullet : MonoBehaviour
     }
 
     private void OnTriggerEnter(Collider other) {
-
         AvatarWeaponTarget avatarWeaponTarget = other.GetComponent<AvatarWeaponTarget>();
         if(avatarWeaponTarget != null) {
             avatarWeaponTarget.ReceiveImpact(this);
