@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44781983, g: 0.497804, b: 0.57543844, a: 1}
+  m_IndirectSpecularColor: {r: 0.44782, g: 0.49780416, b: 0.5754391, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -247,6 +247,12 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!82 &1253961963 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 1222679689, guid: 48ff3ca6351c8ce40963adb05cfaa2d9,
+    type: 3}
+  m_PrefabInstance: {fileID: 3427643549544751206}
+  m_PrefabAsset: {fileID: 0}
 --- !u!20 &1274414397 stripped
 Camera:
   m_CorrespondingSourceObject: {fileID: 3788848160232739476, guid: 46cee5d32897149bf81e3adad16936e5,
@@ -264,11 +270,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Hada
-      objectReference: {fileID: 0}
-    - target: {fileID: 142401787186197375, guid: d7cae2b9065f442108163173e8a0230f,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8896912924076417320, guid: d7cae2b9065f442108163173e8a0230f,
         type: 3}
@@ -334,11 +335,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 318717442601081558, guid: d7cae2b9065f442108163173e8a0230f,
-        type: 3}
-      propertyPath: identityRotation
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d7cae2b9065f442108163173e8a0230f, type: 3}
@@ -459,6 +455,11 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2955851361474104093, guid: 910bcba792e594dae952aabbd81f1937,
+        type: 3}
+      propertyPath: coinSource
+      value: 
+      objectReference: {fileID: 1253961963}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 910bcba792e594dae952aabbd81f1937, type: 3}
 --- !u!1001 &3427643549544751206
@@ -548,21 +549,6 @@ PrefabInstance:
       propertyPath: m_Camera
       value: 
       objectReference: {fileID: 1274414397}
-    - target: {fileID: 1028999783373086589, guid: 48ff3ca6351c8ce40963adb05cfaa2d9,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1764945213868869855, guid: 48ff3ca6351c8ce40963adb05cfaa2d9,
-        type: 3}
-      propertyPath: m_Name
-      value: PS_LevelUp
-      objectReference: {fileID: 0}
-    - target: {fileID: 1028999783373086591, guid: 48ff3ca6351c8ce40963adb05cfaa2d9,
-        type: 3}
-      propertyPath: m_RenderAlignment
-      value: 0
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 48ff3ca6351c8ce40963adb05cfaa2d9, type: 3}
 --- !u!1001 &3788848159584273955
@@ -716,11 +702,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4879129383888762481, guid: a98de399c34eec5469056c9b78592f51,
-        type: 3}
-      propertyPath: m_IsTrigger
-      value: 1
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a98de399c34eec5469056c9b78592f51, type: 3}
 --- !u!1001 &6145897125291676408
@@ -789,11 +770,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6145897125608419560, guid: 8232397a6f32b6d4387c7cef88338cb7,
-        type: 3}
-      propertyPath: m_IsTrigger
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8232397a6f32b6d4387c7cef88338cb7, type: 3}

@@ -29993,11 +29993,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: PS_MainPoisonSmoke
       objectReference: {fileID: 0}
-    - target: {fileID: 3529922023252531073, guid: 836d6f98a7fa4a243b35b14848133a0a,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 3529922023252531072, guid: 836d6f98a7fa4a243b35b14848133a0a,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -30052,11 +30047,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: -90
-      objectReference: {fileID: 0}
-    - target: {fileID: 3529922023252531075, guid: 836d6f98a7fa4a243b35b14848133a0a,
-        type: 3}
-      propertyPath: m_RenderAlignment
-      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 836d6f98a7fa4a243b35b14848133a0a, type: 3}
