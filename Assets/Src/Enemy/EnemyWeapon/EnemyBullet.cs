@@ -9,6 +9,8 @@ public class EnemyBullet : MonoBehaviour
     public float damage = 1;
 
     float lifeTimer = 0f;
+    [Space]
+    [SerializeField] GameObject onGrabFxPrefab = null;
 
     private void Start() {
         lifeTimer = lifeTime;
@@ -27,6 +29,8 @@ public class EnemyBullet : MonoBehaviour
         Avatar avatar = other.GetComponent<Avatar>();
         if(avatar != null) {
             avatar.ReceiveImpact(this);
+            GameObject fx = Instantiate<GameObject>(onGrabFxPrefab, avatar.transform.position, Quaternion.identity);
+            Destroy(fx, 1f);
         }
         Destroy(gameObject);
     }
