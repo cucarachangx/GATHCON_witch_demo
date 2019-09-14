@@ -566,6 +566,9 @@ MonoBehaviour:
   - prefab: {fileID: 3538017200446629703, guid: f570fd967c7464613a715fff5b8a9154,
       type: 3}
     count: 10
+  - prefab: {fileID: 5047343438460276021, guid: 7ffbe92b61b322e40ab527f226695578,
+      type: 3}
+    count: 1
 --- !u!114 &1443139994
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1997,11 +2000,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: GoblinHealthBar
       objectReference: {fileID: 0}
-    - target: {fileID: 8297057933210190854, guid: c6ea7ce2168920e4aa20d7e43d559364,
-        type: 3}
-      propertyPath: m_Direction
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 8297057933650544361, guid: c6ea7ce2168920e4aa20d7e43d559364,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2107,6 +2105,11 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
+    - target: {fileID: 8297057933210190854, guid: c6ea7ce2168920e4aa20d7e43d559364,
+        type: 3}
+      propertyPath: m_Direction
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8297057933380606718, guid: c6ea7ce2168920e4aa20d7e43d559364,
         type: 3}
       propertyPath: m_AnchorMin.x
@@ -2121,6 +2124,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_AnchoredPosition.x
       value: -0.0797368
+      objectReference: {fileID: 0}
+    - target: {fileID: 8297057933149081501, guid: c6ea7ce2168920e4aa20d7e43d559364,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8297057933149081501, guid: c6ea7ce2168920e4aa20d7e43d559364,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c6ea7ce2168920e4aa20d7e43d559364, type: 3}
