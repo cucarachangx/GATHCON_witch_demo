@@ -54,6 +54,8 @@ MonoBehaviour:
   initialFlySpeed: 2
   distanceToGrab: 1
   coinsCount: 1
+  onGrabFxPrefab: {fileID: 2533497866370479730, guid: 01f924e97ded3134aaccaa13772b9caf,
+    type: 3}
 --- !u!135 &3538017200446629700
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -90,11 +92,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 3538017200446629701}
     m_Modifications:
-    - target: {fileID: 8573485462339572675, guid: db90208df32c46c41821a41f8ac1b48b,
-        type: 3}
-      propertyPath: m_Name
-      value: Moonstone
-      objectReference: {fileID: 0}
     - target: {fileID: 8573485462339572674, guid: db90208df32c46c41821a41f8ac1b48b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -149,6 +146,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8573485462339572675, guid: db90208df32c46c41821a41f8ac1b48b,
+        type: 3}
+      propertyPath: m_Name
+      value: Moonstone
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: db90208df32c46c41821a41f8ac1b48b, type: 3}
