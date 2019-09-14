@@ -40,6 +40,7 @@ public class Enemy : MonoBehaviour
     }
 
     public void Die() {
+        GetComponent<Rigidbody>().isKinematic = true;
         animator.SetTrigger("Dead");
         Destroy(gameObject, 1f);
 
