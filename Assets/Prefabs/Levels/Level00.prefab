@@ -621,11 +621,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Luces
       objectReference: {fileID: 0}
-    - target: {fileID: 8117525409807297902, guid: 9afc16dbb39942146902a05cb63dc5ba,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 6982189117074037782, guid: 9afc16dbb39942146902a05cb63dc5ba,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -896,11 +891,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pared Izq inferior
       objectReference: {fileID: 0}
-    - target: {fileID: 7987273694377562962, guid: b7101f15fa31849ebb55e4134d01cb70,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 6522889130277110880, guid: b7101f15fa31849ebb55e4134d01cb70,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1046,16 +1036,6 @@ PrefabInstance:
       propertyPath: autoPathPoints.Array.data[1].x
       value: 3.99
       objectReference: {fileID: 0}
-    - target: {fileID: 8172617184280508160, guid: 9f3c0d35f2a786d498e2e18409205073,
-        type: 3}
-      propertyPath: m_AnchorMax.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8172617184280508160, guid: 9f3c0d35f2a786d498e2e18409205073,
-        type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 0
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9f3c0d35f2a786d498e2e18409205073, type: 3}
 --- !u!4 &3894112499093433266 stripped
@@ -1084,7 +1064,7 @@ PrefabInstance:
     - target: {fileID: 2468521424656105423, guid: 163200a26f577472093e338a5eb87c00,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 16.97
+      value: 16.04
       objectReference: {fileID: 0}
     - target: {fileID: 2468521424656105423, guid: 163200a26f577472093e338a5eb87c00,
         type: 3}
@@ -1218,15 +1198,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 10316797892519156, guid: d7cae2b9065f442108163173e8a0230f,
+    - target: {fileID: 7659064823411428019, guid: d7cae2b9065f442108163173e8a0230f,
         type: 3}
-      propertyPath: m_AnchorMax.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 10316797892519156, guid: d7cae2b9065f442108163173e8a0230f,
-        type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 0
+      propertyPath: cooldown
+      value: 0.37
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d7cae2b9065f442108163173e8a0230f, type: 3}
