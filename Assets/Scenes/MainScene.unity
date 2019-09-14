@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44781977, g: 0.49780393, b: 0.57543844, a: 1}
+  m_IndirectSpecularColor: {r: 0.44782, g: 0.49780416, b: 0.5754391, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -632,6 +632,16 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3427643548704771174, guid: 48ff3ca6351c8ce40963adb05cfaa2d9,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6169623906919200507, guid: 48ff3ca6351c8ce40963adb05cfaa2d9,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 48ff3ca6351c8ce40963adb05cfaa2d9, type: 3}
 --- !u!1001 &3788848159584273955
@@ -645,6 +655,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: CameraRoot
+      objectReference: {fileID: 0}
+    - target: {fileID: 3788848160232739476, guid: 46cee5d32897149bf81e3adad16936e5,
+        type: 3}
+      propertyPath: orthographic size
+      value: 10.36
       objectReference: {fileID: 0}
     - target: {fileID: 3788848160783661091, guid: 46cee5d32897149bf81e3adad16936e5,
         type: 3}
@@ -700,11 +715,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3788848160232739476, guid: 46cee5d32897149bf81e3adad16936e5,
-        type: 3}
-      propertyPath: orthographic size
-      value: 10.36
       objectReference: {fileID: 0}
     - target: {fileID: 3788848160232739483, guid: 46cee5d32897149bf81e3adad16936e5,
         type: 3}
