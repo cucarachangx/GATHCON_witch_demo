@@ -1,0 +1,3 @@
+1 al 29 :camina
+33 al 60 :ataca
+del 60 al 85 :muere

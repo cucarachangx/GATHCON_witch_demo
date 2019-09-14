@@ -1,0 +1,368 @@
+fileFormatVersion: 2
+guid: 011bf8d11a132f34b94de53c7c127cdf
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: bn_chest
+    100002: bn_d_ankle
+    100004: bn_d_clavicle
+    100006: bn_d_elbow
+    100008: bn_d_foot
+    100010: bn_d_hand
+    100012: bn_d_knee
+    100014: bn_d_leg
+    100016: bn_d_shoulder
+    100018: bn_head
+    100020: bn_i_ankle
+    100022: bn_i_clavicle
+    100024: bn_i_elbow
+    100026: bn_i_foot
+    100028: bn_i_hand
+    100030: bn_i_knee
+    100032: bn_i_leg
+    100034: bn_i_shoulder
+    100036: bn_neck
+    100038: bn_Root
+    100040: bn_spine
+    100042: ctrl_chest
+    100044: ctrl_d_clavicle
+    100046: ctrl_d_elbow
+    100048: ctrl_d_hand
+    100050: ctrl_d_knee
+    100052: ctrl_d_leg
+    100054: ctrl_d_sloulder
+    100056: ctrl_head
+    100058: ctrl_i_clavicle
+    100060: ctrl_i_elbow
+    100062: ctrl_i_hand
+    100064: ctrl_i_knee
+    100066: ctrl_i_leg
+    100068: ctrl_i_shoulder
+    100070: Ctrl_Master
+    100072: ctrl_neck
+    100074: Ctrl_Root
+    100076: ctrl_spine
+    100078: d_fingers
+    100080: d_hand
+    100082: d_inverse_foot_ankle
+    100084: d_inverse_foot_fingers
+    100086: d_inverse_foot_heel
+    100088: d_inverse_foot_instep
+    100090: Globin
+    100092: //RootNode
+    100094: grp_ctrl_chest
+    100096: grp_ctrl_Ctrl_Master
+    100098: grp_ctrl_d_clavicle
+    100100: grp_ctrl_d_elbow
+    100102: grp_ctrl_d_hand
+    100104: grp_ctrl_d_knee
+    100106: grp_ctrl_d_leg
+    100108: grp_ctrl_d_shoulder
+    100110: grp_ctrl_head
+    100112: grp_ctrl_i_clavicle
+    100114: grp_ctrl_i_elbow
+    100116: grp_ctrl_i_hand
+    100118: grp_ctrl_i_knee
+    100120: grp_ctrl_i_leg
+    100122: grp_ctrl_i_shoulder
+    100124: grp_ctrl_neck
+    100126: grp_ctrl_Root
+    100128: grp_ctrl_spine
+    100130: head
+    100132: i_fingers
+    100134: i_hand
+    100136: i_inverse_foot_ankle
+    100138: i_inverse_foot_fingers
+    100140: i_inverse_foot_heel
+    100142: i_inverse_foot_instep
+    100144: ikHandle1
+    100146: ikHandle2
+    100148: ikHandle3
+    100150: ikHandle4
+    100152: ikHandle5
+    100154: ikHandle6
+    400000: bn_chest
+    400002: bn_d_ankle
+    400004: bn_d_clavicle
+    400006: bn_d_elbow
+    400008: bn_d_foot
+    400010: bn_d_hand
+    400012: bn_d_knee
+    400014: bn_d_leg
+    400016: bn_d_shoulder
+    400018: bn_head
+    400020: bn_i_ankle
+    400022: bn_i_clavicle
+    400024: bn_i_elbow
+    400026: bn_i_foot
+    400028: bn_i_hand
+    400030: bn_i_knee
+    400032: bn_i_leg
+    400034: bn_i_shoulder
+    400036: bn_neck
+    400038: bn_Root
+    400040: bn_spine
+    400042: ctrl_chest
+    400044: ctrl_d_clavicle
+    400046: ctrl_d_elbow
+    400048: ctrl_d_hand
+    400050: ctrl_d_knee
+    400052: ctrl_d_leg
+    400054: ctrl_d_sloulder
+    400056: ctrl_head
+    400058: ctrl_i_clavicle
+    400060: ctrl_i_elbow
+    400062: ctrl_i_hand
+    400064: ctrl_i_knee
+    400066: ctrl_i_leg
+    400068: ctrl_i_shoulder
+    400070: Ctrl_Master
+    400072: ctrl_neck
+    400074: Ctrl_Root
+    400076: ctrl_spine
+    400078: d_fingers
+    400080: d_hand
+    400082: d_inverse_foot_ankle
+    400084: d_inverse_foot_fingers
+    400086: d_inverse_foot_heel
+    400088: d_inverse_foot_instep
+    400090: Globin
+    400092: //RootNode
+    400094: grp_ctrl_chest
+    400096: grp_ctrl_Ctrl_Master
+    400098: grp_ctrl_d_clavicle
+    400100: grp_ctrl_d_elbow
+    400102: grp_ctrl_d_hand
+    400104: grp_ctrl_d_knee
+    400106: grp_ctrl_d_leg
+    400108: grp_ctrl_d_shoulder
+    400110: grp_ctrl_head
+    400112: grp_ctrl_i_clavicle
+    400114: grp_ctrl_i_elbow
+    400116: grp_ctrl_i_hand
+    400118: grp_ctrl_i_knee
+    400120: grp_ctrl_i_leg
+    400122: grp_ctrl_i_shoulder
+    400124: grp_ctrl_neck
+    400126: grp_ctrl_Root
+    400128: grp_ctrl_spine
+    400130: head
+    400132: i_fingers
+    400134: i_hand
+    400136: i_inverse_foot_ankle
+    400138: i_inverse_foot_fingers
+    400140: i_inverse_foot_heel
+    400142: i_inverse_foot_instep
+    400144: ikHandle1
+    400146: ikHandle2
+    400148: ikHandle3
+    400150: ikHandle4
+    400152: ikHandle5
+    400154: ikHandle6
+    2100000: body
+    2100002: ropa
+    4300000: Globin
+    7400000: Take 001
+    7400002: Goblin 2 - Walk
+    7400004: Goblin 2 - Attack
+    7400006: Goblin 2 - Die
+    9500000: //RootNode
+    13700000: Globin
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 85
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Goblin 2 - Walk
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 29
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Goblin 2 - Attack
+      takeName: Take 001
+      firstFrame: 33
+      lastFrame: 60
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Goblin 2 - Die
+      takeName: Take 001
+      firstFrame: 60
+      lastFrame: 85
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
