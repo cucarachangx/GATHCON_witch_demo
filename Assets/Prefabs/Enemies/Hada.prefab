@@ -117,7 +117,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cooldown: 0.5
-  range: 20
+  range: 10
   bulletPrefab: {fileID: 460719005147037086, guid: 41ef01cb395244c90bf80e34568cf5fb,
     type: 3}
   bulletOrigin: {fileID: 2902924669698573349}
@@ -801,6 +801,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8896912924076417320}
     m_Modifications:
+    - target: {fileID: 1144324094037193841, guid: 8a272f45144a627438d64974ee7896bf,
+        type: 3}
+      propertyPath: m_Name
+      value: HadaHealthBar
+      objectReference: {fileID: 0}
     - target: {fileID: 1144324094037193853, guid: 8a272f45144a627438d64974ee7896bf,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -910,11 +915,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Direction
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1144324094037193841, guid: 8a272f45144a627438d64974ee7896bf,
-        type: 3}
-      propertyPath: m_Name
-      value: HadaHealthBar
       objectReference: {fileID: 0}
     - target: {fileID: 1144324094405044330, guid: 8a272f45144a627438d64974ee7896bf,
         type: 3}

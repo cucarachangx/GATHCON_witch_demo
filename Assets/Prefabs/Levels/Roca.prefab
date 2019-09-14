@@ -10,7 +10,6 @@ GameObject:
   m_Component:
   - component: {fileID: 6877716548221711781}
   - component: {fileID: 7034984915528854718}
-  - component: {fileID: 808630199447122832}
   m_Layer: 0
   m_Name: Roca
   m_TagString: Untagged
@@ -25,13 +24,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2546661521206520881}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 13.02, y: 2.84, z: 29.586143}
+  m_LocalRotation: {x: 0.25881904, y: -0, z: -0, w: 0.9659259}
+  m_LocalPosition: {x: 13.02, y: 2.9259288, z: 29.609167}
   m_LocalScale: {x: 0.3, y: 0.3, z: 0.3}
-  m_Children: []
+  m_Children:
+  - {fileID: 1436620889912885693}
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 30.000002, y: 0, z: 0}
 --- !u!212 &7034984915528854718
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -80,16 +80,47 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!65 &808630199447122832
+--- !u!1 &8986045246768628772
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1436620889912885693}
+  - component: {fileID: 5644227578053265872}
+  m_Layer: 0
+  m_Name: GameObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1436620889912885693
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8986045246768628772}
+  m_LocalRotation: {x: -0.25881943, y: -0, z: -0, w: 0.96592575}
+  m_LocalPosition: {x: 0, y: 3.4527, z: -3.6886}
+  m_LocalScale: {x: 3.333333, y: 5.506192, z: 5.223958}
+  m_Children: []
+  m_Father: {fileID: 6877716548221711781}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -30.000002, y: 0, z: 0}
+--- !u!65 &5644227578053265872
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2546661521206520881}
+  m_GameObject: {fileID: 8986045246768628772}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 10.193201, y: 17.989594, z: 4.9534097}
-  m_Center: {x: 0.30608416, y: -1.8052049, z: 0.5728594}
+  m_Size: {x: 4.1134315, y: 3.898373, z: 1}
+  m_Center: {x: 0.2413812, y: -0.94070244, z: 0}
