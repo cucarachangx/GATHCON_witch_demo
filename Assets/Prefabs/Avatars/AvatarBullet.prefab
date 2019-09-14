@@ -51,6 +51,8 @@ MonoBehaviour:
   speed: 20
   lifeTime: 3
   damage: 1
+  AvatarScr: {fileID: 3427643548223235403, guid: 48ff3ca6351c8ce40963adb05cfaa2d9,
+    type: 3}
 --- !u!135 &2193210492776342339
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -92,7 +94,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 369e0ca1897474084b63e015554d48b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  identityRotation: 0
+  rotationIdentity: 0
   objectsToSpawn:
   - prefab: {fileID: 6625001413475468978, guid: 665f7c540576a2b42957bd50dad38821,
       type: 3}

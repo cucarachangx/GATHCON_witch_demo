@@ -35,11 +35,11 @@ public class AvatarWeapon : MonoBehaviour {
 
     public void Shoot() {
         cosestTarget = FindClosestTarget();
-
-        if(cosestTarget != null && Vector3.Distance(cosestTarget.transform.position, transform.position) <= range) {
+        if (cosestTarget != null && Vector3.Distance(cosestTarget.transform.position, transform.position) <= range) {
             animator.SetTrigger("Attack");
             transform.LookAt(cosestTarget.transform.position, Vector3.up);
         }
+       // AvatarScr.SFXManager(0);
     }
 
     //llamado desde animacion

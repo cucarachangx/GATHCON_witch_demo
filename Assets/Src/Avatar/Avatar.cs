@@ -14,6 +14,10 @@ public class Avatar : MonoBehaviour
 
     [SerializeField]
     AvatarHealth avatarH;
+    [SerializeField]
+    AudioSource sFXManager;
+    [SerializeField]
+    AudioClip[] sounds;
 
 
     void Start() {
@@ -25,6 +29,7 @@ public class Avatar : MonoBehaviour
     }
 
     void LateUpdate() {
+
         weaponComp.SetShooting(!movementComp.moving);
     }
 
@@ -64,5 +69,23 @@ public class Avatar : MonoBehaviour
     private void OnDestroy() {
         currentAvatar = null;
     }
-
+    public void SFXManager(int a)
+    {
+        switch (a)
+        {
+            case 0:
+                sFXManager.clip = sounds[0];
+                sFXManager.Play();
+                break;
+            case 1:
+                sFXManager.clip = sounds[1];
+                sFXManager.Play();
+                break;
+            case 2:
+                sFXManager.clip = sounds[2];
+                sFXManager.Play();
+                break;
+                
+        }
+    }
 }
