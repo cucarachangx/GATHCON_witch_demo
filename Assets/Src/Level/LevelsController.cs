@@ -34,8 +34,8 @@ public class LevelsController : Singleton<LevelsController>
     }
 
     public void LevelCompleted() {
-
-        UnityEngine.SceneManagement.SceneManager.LoadScene(UnityEngine.SceneManagement.SceneManager.GetActiveScene().name);
+        levelIndex++;
+        UnityEngine.SceneManagement.SceneManager.LoadScene(levelIndex);
         //TODO: arreglar esto, que funcione el paso de niveles
 
         return;
