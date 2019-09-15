@@ -155,6 +155,12 @@ MonoBehaviour:
   - prefab: {fileID: 5047343438460276021, guid: 7ffbe92b61b322e40ab527f226695578,
       type: 3}
     count: 1
+  - prefab: {fileID: 3200743674164125858, guid: be9f1b34533be4237add58a56829b654,
+      type: 3}
+    count: 2
+  - prefab: {fileID: 6145897125608419575, guid: 8232397a6f32b6d4387c7cef88338cb7,
+      type: 3}
+    count: 2
 --- !u!114 &1406958119
 MonoBehaviour:
   m_ObjectHideFlags: 0

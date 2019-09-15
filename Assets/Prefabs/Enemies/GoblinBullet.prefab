@@ -51,6 +51,7 @@ MonoBehaviour:
   speed: 0
   lifeTime: 0.25
   damage: 2
+  onGrabFxPrefab: {fileID: 3321203230610064950}
 --- !u!135 &2193210492776342339
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -194,7 +195,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &4859960863402867183
 Transform:
   m_ObjectHideFlags: 0

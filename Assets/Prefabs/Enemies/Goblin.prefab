@@ -461,9 +461,9 @@ CapsuleCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   m_Radius: 0.5
-  m_Height: 2
+  m_Height: 1.34
   m_Direction: 1
-  m_Center: {x: 0, y: 1, z: 0}
+  m_Center: {x: 0, y: 0.57, z: 0}
 --- !u!114 &8950453354091517994
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -567,6 +567,12 @@ MonoBehaviour:
       type: 3}
     count: 10
   - prefab: {fileID: 5047343438460276021, guid: 7ffbe92b61b322e40ab527f226695578,
+      type: 3}
+    count: 1
+  - prefab: {fileID: 3200743674164125858, guid: be9f1b34533be4237add58a56829b654,
+      type: 3}
+    count: 2
+  - prefab: {fileID: 6145897125608419575, guid: 8232397a6f32b6d4387c7cef88338cb7,
       type: 3}
     count: 1
 --- !u!114 &1443139994

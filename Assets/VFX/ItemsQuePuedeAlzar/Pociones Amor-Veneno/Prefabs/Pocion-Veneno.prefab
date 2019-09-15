@@ -11,8 +11,7 @@ GameObject:
   - component: {fileID: 6145897125608419561}
   - component: {fileID: 6145897125608419560}
   - component: {fileID: 700068422}
-  - component: {fileID: 700068420}
-  - component: {fileID: 700068421}
+  - component: {fileID: 195758769598969134}
   m_Layer: 0
   m_Name: Pocion-Veneno
   m_TagString: Untagged
@@ -48,7 +47,7 @@ SphereCollider:
   m_Enabled: 1
   serializedVersion: 2
   m_Radius: 0.69
-  m_Center: {x: 0, y: -0.7, z: 0.99}
+  m_Center: {x: 0, y: -1, z: 0.99}
 --- !u!54 &700068422
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -65,7 +64,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 112
   m_CollisionDetection: 1
---- !u!114 &700068420
+--- !u!114 &195758769598969134
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -74,34 +73,21 @@ MonoBehaviour:
   m_GameObject: {fileID: 6145897125608419575}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 369e0ca1897474084b63e015554d48b8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  rotationIdentity: 1
-  usePlaceHolder: 1
-  objectsToSpawn:
-  - prefab: {fileID: 0}
-    parentPlaceholder: {fileID: 0}
-    count: 1
---- !u!114 &700068421
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6145897125608419575}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ab316509e963f4d2a930c98e5472197d, type: 3}
+  m_Script: {fileID: 11500000, guid: d9db7aecebce81448a586ecba7d00203, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   collectOnFinishLvl: 0
   spawnForce: {x: 0, y: 0, z: 0}
   rndSpawnForceRange: {x: 0, y: 0, z: 0}
-  magnetRadio: 5
+  magnetRadio: 15
   accelerationToAvatar: 5
-  initialFlySpeed: 0.3
+  initialFlySpeed: 4
   distanceToGrab: 1
+  XYZOffset: {x: 0, y: 2.2, z: -0.847}
+  YOffset: 1
+  venenoPocionCount: 1
+  onGrabFxPrefab: {fileID: 869448041197929746, guid: 540d33e5457a2764e9b3596d4874fd09,
+    type: 3}
 --- !u!1 &6145897126280135444
 GameObject:
   m_ObjectHideFlags: 0
