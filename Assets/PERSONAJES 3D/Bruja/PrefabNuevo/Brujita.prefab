@@ -803,6 +803,7 @@ MonoBehaviour:
   bulletPrefab: {fileID: 2193210492776342338, guid: 42e32070d1ef04877a04e193be8a310d,
     type: 3}
   bulletOrigin: {fileID: 3427643548342746730}
+  avatarScr: {fileID: 3427643548223235403}
 --- !u!114 &3427643548223235402
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1349,10 +1350,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 3427643548342746692}
     m_Modifications:
-    - target: {fileID: 100000, guid: 70b1a5ea6b0146544995879eece47d7d, type: 3}
-      propertyPath: m_Name
-      value: cuccharon
-      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 70b1a5ea6b0146544995879eece47d7d, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.00447
@@ -1408,6 +1405,10 @@ PrefabInstance:
     - target: {fileID: 400000, guid: 70b1a5ea6b0146544995879eece47d7d, type: 3}
       propertyPath: m_LocalScale.z
       value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 70b1a5ea6b0146544995879eece47d7d, type: 3}
+      propertyPath: m_Name
+      value: cuccharon
       objectReference: {fileID: 0}
     - target: {fileID: 2300000, guid: 70b1a5ea6b0146544995879eece47d7d, type: 3}
       propertyPath: m_CastShadows
@@ -1548,22 +1549,22 @@ PrefabInstance:
       propertyPath: m_Direction
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 962818007747169195, guid: 5cfdd3371297057409d349f911bedcaa,
-        type: 3}
-      propertyPath: m_Layer
-      value: 8
-      objectReference: {fileID: 0}
     - target: {fileID: 962818006107170737, guid: 5cfdd3371297057409d349f911bedcaa,
         type: 3}
       propertyPath: m_Layer
       value: 8
       objectReference: {fileID: 0}
-    - target: {fileID: 962818007644110901, guid: 5cfdd3371297057409d349f911bedcaa,
+    - target: {fileID: 962818007747169195, guid: 5cfdd3371297057409d349f911bedcaa,
         type: 3}
       propertyPath: m_Layer
       value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 962818007849424208, guid: 5cfdd3371297057409d349f911bedcaa,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 962818007644110901, guid: 5cfdd3371297057409d349f911bedcaa,
         type: 3}
       propertyPath: m_Layer
       value: 8
@@ -1595,10 +1596,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 3427643548342746692}
     m_Modifications:
-    - target: {fileID: 100000, guid: 70b1a5ea6b0146544995879eece47d7d, type: 3}
-      propertyPath: m_Name
-      value: cuccharon
-      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 70b1a5ea6b0146544995879eece47d7d, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.00447
@@ -1654,6 +1651,10 @@ PrefabInstance:
     - target: {fileID: 400000, guid: 70b1a5ea6b0146544995879eece47d7d, type: 3}
       propertyPath: m_LocalScale.z
       value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 70b1a5ea6b0146544995879eece47d7d, type: 3}
+      propertyPath: m_Name
+      value: cuccharon
       objectReference: {fileID: 0}
     - target: {fileID: 2300000, guid: 70b1a5ea6b0146544995879eece47d7d, type: 3}
       propertyPath: m_CastShadows
@@ -1749,11 +1750,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 3427643548342746704}
     m_Modifications:
-    - target: {fileID: 6105919214328624190, guid: 079c27b5eba16934b857f7b09193fe1a,
-        type: 3}
-      propertyPath: m_Name
-      value: PS_LevelUp
-      objectReference: {fileID: 0}
     - target: {fileID: 6466284685976742969, guid: 079c27b5eba16934b857f7b09193fe1a,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1808,6 +1804,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6105919214328624190, guid: 079c27b5eba16934b857f7b09193fe1a,
+        type: 3}
+      propertyPath: m_Name
+      value: PS_LevelUp
       objectReference: {fileID: 0}
     - target: {fileID: 6895586937458323445, guid: 079c27b5eba16934b857f7b09193fe1a,
         type: 3}
@@ -2595,10 +2596,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 3427643548342746692}
     m_Modifications:
-    - target: {fileID: 100000, guid: 70b1a5ea6b0146544995879eece47d7d, type: 3}
-      propertyPath: m_Name
-      value: cuccharon
-      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 70b1a5ea6b0146544995879eece47d7d, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.00447
@@ -2655,6 +2652,10 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 0.3
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 70b1a5ea6b0146544995879eece47d7d, type: 3}
+      propertyPath: m_Name
+      value: cuccharon
+      objectReference: {fileID: 0}
     - target: {fileID: 2300000, guid: 70b1a5ea6b0146544995879eece47d7d, type: 3}
       propertyPath: m_CastShadows
       value: 0
@@ -2674,11 +2675,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 3427643548342746704}
     m_Modifications:
-    - target: {fileID: 6377832148757960863, guid: 0bc250b3d14cadc41af6609f400e3f95,
-        type: 3}
-      propertyPath: m_Name
-      value: PS_Bubbles
-      objectReference: {fileID: 0}
     - target: {fileID: 6377832148757960862, guid: 0bc250b3d14cadc41af6609f400e3f95,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2733,6 +2729,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6377832148757960863, guid: 0bc250b3d14cadc41af6609f400e3f95,
+        type: 3}
+      propertyPath: m_Name
+      value: PS_Bubbles
       objectReference: {fileID: 0}
     - target: {fileID: 6377832148757960860, guid: 0bc250b3d14cadc41af6609f400e3f95,
         type: 3}

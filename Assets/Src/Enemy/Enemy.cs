@@ -14,6 +14,8 @@ public class Enemy : MonoBehaviour
 
     [SerializeField]
     AvatarHealth healthBarScr;
+    [SerializeField]
+    Avatar avatarScr;
 
     // Start is called before the first frame update
     void Start() {
@@ -29,6 +31,7 @@ public class Enemy : MonoBehaviour
     public void ReceiveAvatarBulletImpact(AvatarBullet bullet) {
 
         if(!inmortal) {
+            avatarScr.SFXManager(Random.Range(1,2));
             animator.SetTrigger("TakeDamage");
             life -= bullet.damage;
             healthBarScr.ChangeHealth(life);

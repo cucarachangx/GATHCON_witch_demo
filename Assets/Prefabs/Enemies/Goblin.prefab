@@ -480,6 +480,8 @@ MonoBehaviour:
   bulletDamage: 0
   inmortal: 0
   healthBarScr: {fileID: 1443139994}
+  avatarScr: {fileID: 3427643548223235403, guid: 48ff3ca6351c8ce40963adb05cfaa2d9,
+    type: 3}
 --- !u!114 &8950453354091517993
 MonoBehaviour:
   m_ObjectHideFlags: 0

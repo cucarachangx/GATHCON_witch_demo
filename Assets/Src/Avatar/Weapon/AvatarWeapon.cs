@@ -10,6 +10,9 @@ public class AvatarWeapon : MonoBehaviour {
     [SerializeField] AvatarBullet bulletPrefab = null;
     [SerializeField] Transform bulletOrigin = null;
 
+    [SerializeField]
+    Avatar avatarScr;
+
     float cooldownTimer = 0f;
     bool shooting = false;
     Animator animator = null;
@@ -36,10 +39,10 @@ public class AvatarWeapon : MonoBehaviour {
     public void Shoot() {
         cosestTarget = FindClosestTarget();
         if (cosestTarget != null && Vector3.Distance(cosestTarget.transform.position, transform.position) <= range) {
+            avatarScr.SFXManager(0);
             animator.SetTrigger("Attack");
             transform.LookAt(cosestTarget.transform.position, Vector3.up);
         }
-       // AvatarScr.SFXManager(0);
     }
 
     //llamado desde animacion
