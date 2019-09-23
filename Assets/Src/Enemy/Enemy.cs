@@ -8,7 +8,6 @@ public class Enemy : MonoBehaviour
     public float bulletDamage;
     public bool inmortal = false;
 
-
     EnemyWeapon weaponComp = null;
     Animator animator = null;
 

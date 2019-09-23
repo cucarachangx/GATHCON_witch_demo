@@ -1,11 +1,14 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.AI;
 
 public class GoblinMovement : EnemyMovement
 {
     public float visionRadius = 15;
     public Vector3[] autoPathPoints = null;
+    public Enemy enemyScript;
+    public NavMeshAgent nav;
 
     [Space]
     [SerializeField] float autopathReachDist = 1f;
@@ -17,6 +20,8 @@ public class GoblinMovement : EnemyMovement
     protected override void Start() {
         base.Start();
         animator = GetComponent<Animator>();
+        enemyScript = GetComponent<Enemy>();
+        nav = GetComponent<NavMeshAgent>();
     }
 
     private void Update() {
@@ -37,6 +42,8 @@ public class GoblinMovement : EnemyMovement
                 following = true;
             }
         }
+        if (enemyScript.life <= 0)
+            nav.enabled = false;
     }
 
     void UpdateFollowing() {
@@ -59,8 +66,10 @@ public class GoblinMovement : EnemyMovement
             }
             dest = autoPathPoints[autoPathIdx];
         }
-        
-        base.agent.destination = dest;
+        if (nav.isActiveAndEnabled)
+        {
+            base.agent.destination = dest;
+        }
         animator.SetFloat("Speed", speed);
     }
 
