@@ -31,6 +31,7 @@ public class Enemy : MonoBehaviour
 
         if(!inmortal) {
             avatarScr.SFXManager(Random.Range(1,2));
+
             animator.SetTrigger("TakeDamage");
             life -= bullet.damage;
             healthBarScr.ChangeHealth(life);
