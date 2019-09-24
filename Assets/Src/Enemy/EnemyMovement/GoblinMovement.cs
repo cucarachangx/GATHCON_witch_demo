@@ -7,8 +7,8 @@ public class GoblinMovement : EnemyMovement
 {
     public float visionRadius = 15;
     public Vector3[] autoPathPoints = null;
-    public Enemy enemyScript;
-    public NavMeshAgent nav;
+    private Enemy enemyScript;
+    private NavMeshAgent nav;
 
     [Space]
     [SerializeField] float autopathReachDist = 1f;
