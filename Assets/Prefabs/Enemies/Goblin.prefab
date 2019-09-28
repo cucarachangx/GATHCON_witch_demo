@@ -406,7 +406,7 @@ Transform:
   m_GameObject: {fileID: 8950453352405493272}
   m_LocalRotation: {x: 0, y: -0.9865679, z: 0, w: 0.16335183}
   m_LocalPosition: {x: 2.51, y: 0, z: 5.89}
-  m_LocalScale: {x: 1.7, y: 1.7, z: 1.7}
+  m_LocalScale: {x: 2, y: 2, z: 2}
   m_Children:
   - {fileID: 8950453352405334610}
   - {fileID: 8950453352405334590}
@@ -1995,11 +1995,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8950453352405334584}
     m_Modifications:
-    - target: {fileID: 8297057933650544357, guid: c6ea7ce2168920e4aa20d7e43d559364,
-        type: 3}
-      propertyPath: m_Name
-      value: GoblinHealthBar
-      objectReference: {fileID: 0}
     - target: {fileID: 8297057933650544361, guid: c6ea7ce2168920e4aa20d7e43d559364,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2104,6 +2099,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Pivot.y
       value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8297057933650544357, guid: c6ea7ce2168920e4aa20d7e43d559364,
+        type: 3}
+      propertyPath: m_Name
+      value: GoblinHealthBar
       objectReference: {fileID: 0}
     - target: {fileID: 8297057933210190854, guid: c6ea7ce2168920e4aa20d7e43d559364,
         type: 3}
